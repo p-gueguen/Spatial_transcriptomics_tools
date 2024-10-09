@@ -1,0 +1,36 @@
+name: Sync Notion Page to GitHub
+
+on:
+  schedule:
+    # Runs the action every 30 minutes (adjust as needed)
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allows manual trigger of the action
+
+jobs:
+  sync-notion:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Python & Notion Client
+      run: |
+        sudo apt-get install python3-pip
+        pip3 install notion-client
+
+    - name: Fetch Notion Page Content
+      env:
+        NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}  # Add Notion API key as a secret in your GitHub repo
+        NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}  # Add Notion Page ID as a secret in your GitHub repo
+      run: |
+        python3 fetch_notion_content.py
+
+    - name: Commit Changes
+      run: |
+        git config user.name "github-actions"
+        git config user.email "actions@github.com"
+        git add notion-sync/*
+        git commit -m "Updated Notion content"
+        git push
+      continue-on-error: true
