@@ -1,4 +1,4 @@
-# Spatial analyses
+🌌 # Spatial analyses
 
 **Other ressource** → https://github.com/crazyhottommy/awesome_spatial_omics
 
