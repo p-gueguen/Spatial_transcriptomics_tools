@@ -216,6 +216,8 @@
 - [HEST](https://github.com/mahmoodlab/HEST) - Dataset for Spatial Transcriptomics and Histology Image Analysis
 - [CellLENS](https://github.com/sggao/celllens/) - Cell Local Environment Neighborhood Scan
 - [DeepSpot](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v2.full.pdf) - Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images
+- [AESTETIK](https://github.com/ratschlab/aestetik) - AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge
+
 
 ## Benchmarks
 
