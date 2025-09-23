@@ -1,12 +1,13 @@
-# 🌌 Spatial Analyses
+# 🌌 Spatial Transcriptomics Tools
 
 **Other resource** → [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics)
-
 - [Spatial-omic SIB tutorial](https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/presentations.html)
 
 ## Table of Contents
+
 - [General Tools](#general-tools)
 - [Analysis Pipeline Steps](#analysis-pipeline-steps)
+  - [ROI Selection](#roi-selection)
   - [QC](#qc)
   - [Normalization](#normalization)
   - [Denoising](#denoising)
@@ -43,8 +44,13 @@
 - [SpaVAE](https://github.com/ttgump/spaVAE) - All-purpose tool for dimension reduction, visualization, clustering, batch integration, denoising, differential expression, spatial interpolation, and resolution enhancement
 - [sopa](https://github.com/gustaveroussy/sopa) - Spatial omics processing and analysis
 - [SpatialAgent](https://www.biorxiv.org/content/10.1101/2025.04.03.646459v1.full.pdf) - An autonomous AI agent for spatial biology
+- [LazySlide](https://github.com/rendeirolab/LazySlide) - Framework for whole slide image (WSI) analysis
 
 ## Analysis Pipeline Steps
+
+### ROI Selection
+
+- [S2Omics](https://github.com/ddb-qiwang/S2Omics) - Designing smart spatial omics experiments with S2Omics
 
 ### QC
 
@@ -52,10 +58,12 @@
 - [GrandQC](https://github.com/cpath-ukk/grandqc) - Comprehensive solution for quality control in digital pathology
 - [SpotSweeper](https://www.nature.com/articles/s41592-025-02713-3#Fig1) - Spatially aware quality control for spatial transcriptomics
 - [KRONOS](https://github.com/mahmoodlab/kronos) - Foundation Model for Multiplex Spatial Proteomic Images
+- [MerQuaCo](https://elifesciences.org/reviewed-preprints/105149) - A computational tool for quality control in image-based spatial transcriptomics
 
 ### Normalization
 
 - [Cell volume normalization](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03303-w#Fig7) - Recommended for imaging-based techniques, especially with small probe lists
+- [SpaNorm](https://www.biorxiv.org/content/10.1101/2024.05.31.596908v1) - Spatially-aware normalisation for spatial transcriptomics data
 
 ### Denoising
 
@@ -73,6 +81,7 @@
 - [Baysor](https://github.com/kharchenkolab/Baysor) - Bayesian segmentation of spatial transcriptomics data
 - [Cellpose](https://github.com/MouseLand/cellpose) - Generalist algorithm for cellular segmentation
   - [Cellpose 3](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v2) - With supersampling/restoration capabilities
+  - [Cellpose-SAM](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1) - Cell and nucleus segmentation with superhuman generalization, works in 3D with various image conditions
 - [DeepCell](https://github.com/vanvalenlab/deepcell-tf) - Deep learning library for single cell analysis
 - [Bo Wang's method](https://www.nature.com/articles/s41592-024-02233-6#Fig3) - Better than SOTA segmentation (Nature Methods 2024)
 - [Bin2Cell](https://www.biorxiv.org/content/10.1101/2024.06.19.599766v1) - Segmentation for VisiumHD data
@@ -101,10 +110,11 @@
 - [TANGRAM](https://github.com/broadinstitute/Tangram) - Mapping single-cell to spatial data
 - [MMoCHi](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00328-X) - Cell annotation method
 - [CytoSPACE](https://www.nature.com/articles/s41587-023-01697-9) - High-resolution alignment of single-cell and spatial transcriptomes
-- [ABCT](https://github.com/ercsb-sp/ABCT) - Cell type annotation method
+- [ABCT](https://github.com/ercsb-sp/ABCT) - Anchor-based Cell Typer
 - [STHD](https://www.biorxiv.org/content/10.1101/2024.06.20.599803v2) - Cell annotation for VisiumHD
 - [STELLAR](https://www.nature.com/articles/s41592-022-01651-8) - Annotation of spatially resolved single-cell data with STELLAR
 - [SPLIT](https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1.full.pdf) - SPLIT effectively resolves mixed signals and enhances cell-type purity
+- [Vesalius](https://www.nature.com/articles/s41467-025-62782-y#Fig2) - Multi-scale and multi-context interpretable mapping of cell states across heterogeneous spatial samples
 
 ### Cell Deconvolution
 
@@ -133,7 +143,7 @@
 
 ### Cell Niches & Tissue Domains
 
-> **(Smaller)** Cell types → Cell modules/neighborhoods → Niches/tissue domains **(Larger)**
+> (**Smaller**) Cell types → Cell modules/neighborhoods → Niches/tissue domains (**Larger**)
 
 - [BANKSY](https://www.nature.com/articles/s41588-024-01664-3) - Unified cell typing and tissue domain segmentation
 - [TISSUE](https://buff.ly/49Oc0M2) - Tissue domain identification
@@ -145,6 +155,7 @@
 - [GASTON](https://github.com/raphael-group/GASTON) - Graph-based spatial domain detection
 - [SpatialMNN](https://github.com/Pixel-Dream/spatialMNN) - Identification of shared niches between slides
 - [NicheCompass](https://github.com/Lotfollahi-lab/nichecompass) - End-to-end analysis of spatial multi-omics data
+- [Proust](https://genome.cshlp.org/content/35/7/1621) - Spatial domain detection using contrastive self-supervised learning for spatial multi-omics technologies (multi-modal domains)
 
 ### Cell Distances & Neighborhood
 
@@ -153,6 +164,7 @@
 - [SpicyR](https://sydneybiox.github.io/spicyR/) - Spatial analysis in R
 - [MISTy](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02663-5) - Explainable multiview framework for dissecting spatial relationships from highly multiplexed data
 - [SpatialCorr](https://www.biorxiv.org/content/10.1101/2022.02.04.479191v1.full) - Identifying gene sets with spatially varying correlation structure
+- [CatsCraddle](https://www.bioconductor.org/packages/devel/bioc/vignettes/CatsCradle/inst/doc/CatsCradleSpatial.html) - Spatial analysis framework
 
 ### Spatial Trajectories
 
@@ -188,6 +200,7 @@
 ### Copy Number Variations
 
 - [CalicoST](https://www.nature.com/articles/s41592-024-02438-9#Fig1) - CNV detection in spatial data
+- [inSituCNV](https://github.com/Moldia/InSituCNV) - Inference of Copy Number Variations in Image-Based Spatial Transcriptomics
 
 ### Transcription Factors & Gene Regulatory Networks
 
@@ -200,6 +213,7 @@
 - [PASTE](https://www.nature.com/articles/s41592-022-01459-6)/[PASTE2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9881963/) - Probabilistic alignment of spatial transcriptomics experiments
 - [SPIRAL](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03078-6#Fig2) - Integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies
 - [TOAST](https://www.biorxiv.org/content/10.1101/2025.04.15.648894v1.full.pdf) - Topography Aware Optimal Transport for Alignment of Spatial Omics Data
+- [STalign](https://jef.works/STalign/notebooks/xenium-xenium-alignment.html) - Alignment of spatial transcriptomics data using diffeomorphic metric mapping
 - [SANTO](https://pmc.ncbi.nlm.nih.gov/articles/PMC11258319/pdf/41467_2024_Article_50308.pdf) - A coarse-to-fine alignment and stitching method for spatial omics
 
 ### Super Resolution
@@ -216,8 +230,9 @@
 - [HEST](https://github.com/mahmoodlab/HEST) - Dataset for Spatial Transcriptomics and Histology Image Analysis
 - [CellLENS](https://github.com/sggao/celllens/) - Cell Local Environment Neighborhood Scan
 - [DeepSpot](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v2.full.pdf) - Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images
+- [SpotWhisperer](https://medical-epigenomics.org/papers/spotwhisperer/#citation) - Molecularly informed analysis of histopathology images using natural language
+- [STPath](https://github.com/Graph-and-Geometric-Learning/STPath) - A Generative Foundation Model for Integrating Spatial Transcriptomics and Whole Slide Images
 - [AESTETIK](https://github.com/ratschlab/aestetik) - AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge
-
 
 ## Benchmarks
 
@@ -227,19 +242,22 @@
 - [Nature Communications review](https://www.nature.com/articles/s41467-023-37168-7#Fig2) - Confirms Cell2location performance
 - [Open problems benchmark](https://openproblems.bio/results/spatial_decomposition/) - Cell2location is top performer
 - [Neighborhod benchmark](https://www.biorxiv.org/content/10.1101/2025.03.31.646289v2.full.pdf) - New COZI method top performer
-- [Kaiko.ai FM benchmark](https://kaiko-ai.github.io/eva/main/leaderboards/) - WSI benchmark
+- [Kaiko.ai FM benchmark EVA](https://kaiko-ai.github.io/eva/main/leaderboards/) - WSI benchmark
 - [Benchmarking of spatial transcriptomics platforms across six cancer types](https://www.biorxiv.org/content/10.1101/2024.05.21.593407v2) - Comprehensive platform comparison
+- [PathBench](https://birkhoffkiki.github.io/PathBench/) - Pathology benchmark
 
 ## Datasets & Foundation Models
 
 ### Datasets
-- [HISSTA](https://github.com/ercsb-sp/HISSTA/tree/v1.0)
+
+- [HISSTA](https://github.com/ercsb-sp/HISSTA/tree/v1.0) - Histopathology spatial transcriptomics dataset
+- [STOmicsDB](https://db.cngb.org/stomics/) - Spatial transcriptomics database
 
 ### Foundation Models
 
 - [scGPT-spatial](https://www.biorxiv.org/content/10.1101/2025.02.05.636714v1.full.pdf) - Language model for spatial transcriptomics
 - [Phikon-v2](https://huggingface.co/owkin/phikon-v2) - Spatial biology foundation model
-- [Bioptimus H-optimus-0](https://huggingface.co/bioptimus/H-optimus-0) - Biology-focused foundation model 
+- [Bioptimus H-optimus-0](https://huggingface.co/bioptimus/H-optimus-0) - Biology-focused foundation model
 - [Bioptimus H-optimus-1](https://www.bioptimus.com/news/bioptimus-launches-h-optimus-1) - Latest biology-focused foundation model from Bioptimus
 - [DeepCell dataset](https://exploredata.deepcell.com/cell-visualizations/9/versions/1) - CNN + human features embeddings
 - [Virchow](https://huggingface.co/paige-ai/Virchow) - Foundation model for computational pathology
