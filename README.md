@@ -10,7 +10,7 @@
   - [ROI Selection](#roi-selection)
   - [QC](#qc)
   - [Normalization](#normalization)
-  - [Denoising](#denoising)
+  - [Gene Imputation & Denoising](#gene-imputation--denoising)
   - [Bias Correction](#bias-correction)
   - [Cell Segmentation](#cell-segmentation)
   - [Cell Annotation](#cell-annotation)
@@ -32,6 +32,7 @@
   - [Transcripts + Histology](#transcripts--histology)
 - [Benchmarks](#benchmarks)
 - [Datasets & Foundation Models](#datasets--foundation-models)
+- [Nextflow Pipelines](#nextflow-pipelines)
 
 ## General Tools
 
@@ -57,7 +58,6 @@
 - [SpaceTrooper](https://htmlpreview.github.io/?https://github.com/drighelli/SpaceTrooper/blob/main/vignette/introduction.html) - Quality control for spatial transcriptomics
 - [GrandQC](https://github.com/cpath-ukk/grandqc) - Comprehensive solution for quality control in digital pathology
 - [SpotSweeper](https://www.nature.com/articles/s41592-025-02713-3#Fig1) - Spatially aware quality control for spatial transcriptomics
-- [KRONOS](https://github.com/mahmoodlab/kronos) - Foundation Model for Multiplex Spatial Proteomic Images
 - [MerQuaCo](https://elifesciences.org/reviewed-preprints/105149) - A computational tool for quality control in image-based spatial transcriptomics
 
 ### Normalization
@@ -65,9 +65,14 @@
 - [Cell volume normalization](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03303-w#Fig7) - Recommended for imaging-based techniques, especially with small probe lists
 - [SpaNorm](https://www.biorxiv.org/content/10.1101/2024.05.31.596908v1) - Spatially-aware normalisation for spatial transcriptomics data
 
-### Denoising
+### Gene Imputation & Denoising
 
-- **Note:** Gene imputation is [not recommended](https://github.com/BayraktarLab/cell2location/issues/379)
+- **Note:** Gene imputation is [not recommended](https://github.com/BayraktarLab/cell2location/issues/379) for deconvolution tasks
+- [SpaGE](https://github.com/tabdelaal/SpaGE) - Spatial gene expression prediction with best overall performance
+- [SpaGCN](https://github.com/jianhuupenn/SpaGCN) - Spatial graph convolutional network for gene correlation analysis
+- [Tangram](https://github.com/broadinstitute/Tangram) - Transcript distribution prediction and spatial mapping
+- [SpaOTsc](https://github.com/zcang/SpaOTsc) - Spatial imputation via optimal transport
+- Seurat integration workflow - Transfer gene expression from scRNA-seq reference
 - [Sprod](https://www.nature.com/articles/s41592-022-01560-w#Fig2) - Spatial denoising method
 
 ### Bias Correction
@@ -78,16 +83,16 @@
 
 ### Cell Segmentation
 
+#### Imaging-based Segmentation
+
 - [Baysor](https://github.com/kharchenkolab/Baysor) - Bayesian segmentation of spatial transcriptomics data
 - [Cellpose](https://github.com/MouseLand/cellpose) - Generalist algorithm for cellular segmentation
   - [Cellpose 3](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v2) - With supersampling/restoration capabilities
   - [Cellpose-SAM](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1) - Cell and nucleus segmentation with superhuman generalization, works in 3D with various image conditions
 - [DeepCell](https://github.com/vanvalenlab/deepcell-tf) - Deep learning library for single cell analysis
 - [Bo Wang's method](https://www.nature.com/articles/s41592-024-02233-6#Fig3) - Better than SOTA segmentation (Nature Methods 2024)
-- [Bin2Cell](https://www.biorxiv.org/content/10.1101/2024.06.19.599766v1) - Segmentation for VisiumHD data
-- [ENACT](https://www.biorxiv.org/content/10.1101/2024.10.17.618905v1.full.pdf) - Segmentation for VisiumHD data
 - [Proseg](https://www.biorxiv.org/content/10.1101/2024.04.25.591218v1.full.pdf) - Probabilistic segmentation method
-- [ComSeg](https://www.nature.com/articles/s42003-024-06480-3) - Transcript-based segmentation
+- [ComSeg](https://github.com/fish-quant/ComSeg) - Transcript-based point cloud segmentation
 - [FICTURE](https://www.nature.com/articles/s41592-024-02415-2) - Feature-based image segmentation
 - [Xenium cell boundary](https://kb.10xgenomics.com/hc/en-us/articles/30205122555917-Boundary-stain-shows-cell-morphology-better-than-the-interior-stain) - Alternative when interior staining fails
 - [Bioimage.io](https://bioimage.io/#/) - Repository of AI models for segmentation
@@ -97,6 +102,16 @@
 - [BIDCell](https://github.com/SydneyBioX/BIDCell) - Biologically-informed deep learning for subcellular spatial transcriptomics segmentation
 - [FastReseg](https://github.com/Nanostring-Biostats/FastReseg) - Using transcript locations to refine image-based cell segmentation results
 - [Segger](https://www.biorxiv.org/content/10.1101/2025.03.14.643160v1) - Fast and accurate cell segmentation of imaging-based spatial transcriptomics data
+
+**Segmentation-free methods:**
+- [SSAM](https://github.com/HiDiHlabs/ssam) - Subcellular segmentation-free analysis by multidimensional mRNA density
+- [Points2Regions](https://github.com/wahlby-lab/Points2Regions) - Transcript-based region identification without segmentation
+
+#### VisiumHD Segmentation
+
+- [Bin2Cell](https://www.biorxiv.org/content/10.1101/2024.06.19.599766v1) - Segmentation for VisiumHD data
+- [ENACT](https://www.biorxiv.org/content/10.1101/2024.10.17.618905v1.full.pdf) - Enhanced accuracy for VisiumHD segmentation
+- [STHD](https://www.biorxiv.org/content/10.1101/2024.06.20.599803v2) - Cell annotation for VisiumHD
 
 ### Cell Annotation
 
@@ -134,6 +149,8 @@
 - [PROST](https://www.nature.com/articles/s41467-024-44835-w) - Detection of spatially variable genes
 - [SpatialDE](https://github.com/Teichlab/SpatialDE) - Spatial differential expression analysis
 - [SPARK-X](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02404-0#Fig1) - Detection of spatially variable genes, best performing
+- [Hotspot](https://github.com/YosefLab/Hotspot) - Identify informative gene modules with lowest false positive rate
+- [SOMDE](https://github.com/XuegongLab/somde) - Self-organizing map for spatially variable gene detection with optimization
 - [trendsceek](https://github.com/edsgard/trendsceek) - Identification of spatial expression trends
 - [nnSVG](https://www.biorxiv.org/content/10.1101/2022.05.16.492124v1) - Scalable identification of spatially variable genes using nearest-neighbor Gaussian processes
 
@@ -146,7 +163,7 @@
 > (**Smaller**) Cell types → Cell modules/neighborhoods → Niches/tissue domains (**Larger**)
 
 - [BANKSY](https://www.nature.com/articles/s41588-024-01664-3) - Unified cell typing and tissue domain segmentation
-- [TISSUE](https://buff.ly/49Oc0M2) - Tissue domain identification
+- [TISSUE](https://github.com/sunericd/TISSUE) - Transcript imputation with spatial single-cell uncertainty estimation
 - [CellCharter](https://www.nature.com/articles/s41588-023-01588-4) - Hierarchical niche detection
 - [SpatialGLUE](https://www.nature.com/articles/s41592-024-02316-4) - Multi-omics cell niche identification
 - [smoothclust](https://github.com/lmweber/smoothclust) - Spatial clustering
@@ -164,7 +181,7 @@
 - [SpicyR](https://sydneybiox.github.io/spicyR/) - Spatial analysis in R
 - [MISTy](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02663-5) - Explainable multiview framework for dissecting spatial relationships from highly multiplexed data
 - [SpatialCorr](https://www.biorxiv.org/content/10.1101/2022.02.04.479191v1.full) - Identifying gene sets with spatially varying correlation structure
-- [CatsCraddle](https://www.bioconductor.org/packages/devel/bioc/vignettes/CatsCradle/inst/doc/CatsCradleSpatial.html) - Spatial analysis framework
+- [CatsCradle](https://github.com/AnnaLaddach/CatsCradle) - Spatial analysis framework for tissue neighbourhoods
 
 ### Spatial Trajectories
 
@@ -182,8 +199,10 @@
 - [DeepLinc](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02692-0) - De novo reconstruction of cell interaction landscapes
 - [CellChat](https://github.com/jinworks/CellChat?tab=readme-ov-file) - Inferrence of cell-cell communication from multiple spatially resolved transcriptomics datasets
 - [COMMOT](https://github.com/zcang/COMMOT) - Screening cell-cell communication in spatial transcriptomics via collective optimal transport
+- [NicheNet](https://github.com/saeyslab/nichenetr) - Linking ligands to downstream target gene regulation
+- [DeepTalk](https://github.com/JiangBioLab/DeepTalk) - Single-cell resolution cell-cell communication using deep learning
+- [CellNEST](https://github.com/schwartzlab-methods/CellNEST) - Cell–cell relay networks using attention mechanisms on spatial transcriptomics
 - [FlowSig](https://www.nature.com/articles/s41592-024-02380-w) - Inferring pattern-driving intercellular flows from single-cell and spatial transcriptomics
-- [CellNEST](https://www.nature.com/articles/s41592-025-02721-3) - Cell–cell relay networks using attention mechanisms on spatial transcriptomics
 
 ### Metacells & Scalability
 
@@ -255,6 +274,7 @@
 
 ### Foundation Models
 
+- [KRONOS](https://github.com/mahmoodlab/KRONOS) - Foundation Model for Multiplex Spatial Proteomic Images
 - [scGPT-spatial](https://www.biorxiv.org/content/10.1101/2025.02.05.636714v1.full.pdf) - Language model for spatial transcriptomics
 - [Phikon-v2](https://huggingface.co/owkin/phikon-v2) - Spatial biology foundation model
 - [Bioptimus H-optimus-0](https://huggingface.co/bioptimus/H-optimus-0) - Biology-focused foundation model
@@ -265,3 +285,11 @@
 - [CONCH](https://github.com/mahmoodlab/CONCH) - Contrastive learning for histopathology
 - [GIGApath](https://github.com/prov-gigapath/prov-gigapath) - Large-scale pathology foundation model
 - [OmiCLIP](https://www.nature.com/articles/s41592-025-02707-1) - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
+
+
+## Nextflow Pipelines
+
+- [Allen Immunology Xenium Pipeline](https://apps.allenimmunology.org/user-documentation/data-ingest/use-the-xenium-pipeline/) - HISE platform pipeline for Xenium data processing
+- [nf-core/spatialxe](https://nf-co.re/spatialxe/dev/) - Nextflow pipeline for Xenium spatial transcriptomics analysis
+- [nf-core/sopa](https://nf-co.re/sopa/dev/) - Spatial Omics Pipeline Analysis (SOPA) for processing spatial transcriptomics data
+
