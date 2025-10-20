@@ -47,6 +47,14 @@
 - [SpatialAgent](https://www.biorxiv.org/content/10.1101/2025.04.03.646459v1.full.pdf) - An autonomous AI agent for spatial biology
 - [LazySlide](https://github.com/rendeirolab/LazySlide) - Framework for whole slide image (WSI) analysis
 
+
+### Nextflow / Pipelines
+
+- [nf-core/spatialxe](https://nf-co.re/spatialxe/dev/) - Nextflow pipeline for Xenium spatial transcriptomics analysis
+- [nf-core/sopa](https://nf-co.re/sopa/dev/) - Spatial Omics Pipeline Analysis (SOPA) for processing spatial transcriptomics data
+- [Allen Immunology Xenium Pipeline](https://apps.allenimmunology.org/user-documentation/data-ingest/use-the-xenium-pipeline/) - HISE platform pipeline for Xenium data processing
+
+
 ## Analysis Pipeline Steps
 
 ### ROI Selection
@@ -285,11 +293,4 @@
 - [CONCH](https://github.com/mahmoodlab/CONCH) - Contrastive learning for histopathology
 - [GIGApath](https://github.com/prov-gigapath/prov-gigapath) - Large-scale pathology foundation model
 - [OmiCLIP](https://www.nature.com/articles/s41592-025-02707-1) - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
-
-
-## Nextflow Pipelines
-
-- [Allen Immunology Xenium Pipeline](https://apps.allenimmunology.org/user-documentation/data-ingest/use-the-xenium-pipeline/) - HISE platform pipeline for Xenium data processing
-- [nf-core/spatialxe](https://nf-co.re/spatialxe/dev/) - Nextflow pipeline for Xenium spatial transcriptomics analysis
-- [nf-core/sopa](https://nf-co.re/sopa/dev/) - Spatial Omics Pipeline Analysis (SOPA) for processing spatial transcriptomics data
 
