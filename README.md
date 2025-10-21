@@ -46,6 +46,7 @@
 - [sopa](https://github.com/gustaveroussy/sopa) - Spatial omics processing and analysis
 - [SpatialAgent](https://www.biorxiv.org/content/10.1101/2025.04.03.646459v1.full.pdf) - An autonomous AI agent for spatial biology
 - [LazySlide](https://github.com/rendeirolab/LazySlide) - Framework for whole slide image (WSI) analysis
+- [pasta](https://robinsonlabuzh.github.io/pasta/00-home.html) - Point pattern and lattice data analysis from Robinson lab
 
 
 ### Nextflow / Pipelines
@@ -88,6 +89,8 @@
 - [ResolVI](https://www.biorxiv.org/content/biorxiv/early/2025/01/24/2025.01.20.634005.full.pdf) - Bias correction method
 - [Statial](https://sydneybiox.github.io/Statial/) - Correction of spill-over effects
 - [ovrl.py](https://github.com/HiDiHlabs/ovrl.py) - A python tool to investigate vertical signal properties of imaging-based spatial transcriptomics data
+- [SPLIT](https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1.full.pdf) - SPLIT effectively resolves mixed signals and enhances cell-type purity
+
 
 ### Cell Segmentation
 
@@ -136,7 +139,6 @@
 - [ABCT](https://github.com/ercsb-sp/ABCT) - Anchor-based Cell Typer
 - [STHD](https://www.biorxiv.org/content/10.1101/2024.06.20.599803v2) - Cell annotation for VisiumHD
 - [STELLAR](https://www.nature.com/articles/s41592-022-01651-8) - Annotation of spatially resolved single-cell data with STELLAR
-- [SPLIT](https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1.full.pdf) - SPLIT effectively resolves mixed signals and enhances cell-type purity
 - [Vesalius](https://www.nature.com/articles/s41467-025-62782-y#Fig2) - Multi-scale and multi-context interpretable mapping of cell states across heterogeneous spatial samples
 
 ### Cell Deconvolution
@@ -272,6 +274,7 @@
 - [Kaiko.ai FM benchmark EVA](https://kaiko-ai.github.io/eva/main/leaderboards/) - WSI benchmark
 - [Benchmarking of spatial transcriptomics platforms across six cancer types](https://www.biorxiv.org/content/10.1101/2024.05.21.593407v2) - Comprehensive platform comparison
 - [PathBench](https://birkhoffkiki.github.io/PathBench/) - Pathology benchmark
+- [SPATCH Benchmark - 2025](https://www.nature.com/articles/s41467-025-64292-3) - Showing Xenium performs best
 
 ## Datasets & Foundation Models
 
