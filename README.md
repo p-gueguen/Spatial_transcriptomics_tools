@@ -47,6 +47,7 @@
 - [SpatialAgent](https://www.biorxiv.org/content/10.1101/2025.04.03.646459v1.full.pdf) - An autonomous AI agent for spatial biology
 - [LazySlide](https://github.com/rendeirolab/LazySlide) - Framework for whole slide image (WSI) analysis
 - [pasta](https://robinsonlabuzh.github.io/pasta/00-home.html) - Point pattern and lattice data analysis from Robinson lab
+- [rakaia](https://github.com/camlab-bioml/rakaia) - Scalable interactive visualization and analysis of spatial omics including spatial transcriptomics, in the browser ([Website](https://rakaia.io/))
 
 
 ### Nextflow / Pipelines
