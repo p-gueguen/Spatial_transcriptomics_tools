@@ -48,6 +48,8 @@
 - [LazySlide](https://github.com/rendeirolab/LazySlide) - Framework for whole slide image (WSI) analysis
 - [pasta](https://robinsonlabuzh.github.io/pasta/00-home.html) - Point pattern and lattice data analysis from Robinson lab
 - [rakaia](https://github.com/camlab-bioml/rakaia) - Scalable interactive visualization and analysis of spatial omics including spatial transcriptomics, in the browser ([Website](https://rakaia.io/))
+- [Thor](https://doi.org/10.1038/s41467-025-62593-1) - Comprehensive platform for cell-level analysis with anti-shrinking Markov diffusion and 10 modular tools paired with Mjolnir web interface
+- [VR-Omics](https://doi.org/10.1186/s13059-025-03630-6) - Free platform-agnostic software with end-to-end automated processing of multi-slice spatial transcriptomics data through biologist-friendly GUI | [Windows](https://doi.org/10.6084/m9.figshare.28259834.v3) | [MacOS](https://doi.org/10.6084/m9.figshare.28340495.v4) | [GitHub](https://github.com/Ramialison-Lab/VR-Omics)
 
 
 ### Nextflow / Pipelines
@@ -73,7 +75,7 @@
 ### Normalization
 
 - [Cell volume normalization](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03303-w#Fig7) - Recommended for imaging-based techniques, especially with small probe lists
-- [SpaNorm](https://www.biorxiv.org/content/10.1101/2024.05.31.596908v1) - Spatially-aware normalisation for spatial transcriptomics data
+- [SpaNorm](https://doi.org/10.1186/s13059-025-03565-y) - First spatially-aware normalization method that concurrently models library size effects and underlying biology | [Bioconductor](https://doi.org/10.18129/B9.bioc.SpaNorm)
 
 ### Gene Imputation & Denoising
 
@@ -114,6 +116,9 @@
 - [BIDCell](https://github.com/SydneyBioX/BIDCell) - Biologically-informed deep learning for subcellular spatial transcriptomics segmentation
 - [FastReseg](https://github.com/Nanostring-Biostats/FastReseg) - Using transcript locations to refine image-based cell segmentation results
 - [Segger](https://www.biorxiv.org/content/10.1101/2025.03.14.643160v1) - Fast and accurate cell segmentation of imaging-based spatial transcriptomics data
+- [Bering](https://doi.org/10.1038/s41467-025-60898-9) - Graph deep learning for joint noise-aware cell segmentation and molecular annotation in 2D and 3D spatial transcriptomics
+- [STP](https://doi.org/10.1038/s41467-025-59782-3) - Single-cell Partition for subcellular spatially-resolved transcriptomics integrating data with nuclei-stained images
+- [Deep learning-based segmentation](https://doi.org/10.1126/sciadv.adw4871) - Extensively trained nuclear and membrane segmentation models for precise transcript assignment in CosMx SMI data
 
 **Segmentation-free methods:**
 - [SSAM](https://github.com/HiDiHlabs/ssam) - Subcellular segmentation-free analysis by multidimensional mRNA density
@@ -141,6 +146,9 @@
 - [STHD](https://www.biorxiv.org/content/10.1101/2024.06.20.599803v2) - Cell annotation for VisiumHD
 - [STELLAR](https://www.nature.com/articles/s41592-022-01651-8) - Annotation of spatially resolved single-cell data with STELLAR
 - [Vesalius](https://www.nature.com/articles/s41467-025-62782-y#Fig2) - Multi-scale and multi-context interpretable mapping of cell states across heterogeneous spatial samples
+- [STALocator](https://doi.org/S2405-4712(25)00028-6) - ST-Aided Locator using deep learning to localize cells from single-cell RNA-seq data onto tissue slices
+- [CMAP](https://doi.org/10.1038/s41467-025-61667-4) - Cellular Mapping of Attributes with Position, maps large-scale individual cells to precise spatial locations using divide-and-conquer strategy
+- [TransST](https://doi.org/10.1186/s12859-025-06099-z) - Transfer learning framework leveraging cell-labeled information from external sources for cell-level heterogeneity inference | [GitHub](https://github.com/shuoshuoliu/TransST)
 
 ### Cell Deconvolution
 
@@ -168,6 +176,10 @@
 ### Integration
 
 - [PRECAST](https://www.nature.com/articles/s41467-023-35947-w) - Probabilistic embedding, clustering, and alignment for integrating spatial transcriptomics data
+- [MISO](https://doi.org/10.1038/s41592-024-02574-2) - MultI-modal Spatial Omics for versatile feature extraction and clustering integrating multiple modalities including gene expression, protein, epigenetics, metabolomics, and histology
+- [SIMO](https://doi.org/10.1038/s41467-025-56523-4) - Spatial Integration of Multi-Omics through probabilistic alignment integrating spatial transcriptomics with multiple single-cell modalities
+- [GSI](https://doi.org/10.1093/bioinformatics/btaf350) - Gene Spatial Integration using deep learning with representation learning to extract spatial distribution of genes | [GitHub](https://github.com/Riandanis/Spatial_Integration_GSI) | [Zenodo](https://doi.org/10.5281/zenodo.15165223)
+- [SPACE-seq](https://doi.org/10.1073/pnas.2424070122) - Unified molecular approach for spatial multiomics enabling simultaneous analysis of chromatin accessibility, mitochondrial DNA mutations, and gene expression on standard 10× Genomics Visium CytAssist platform
 
 ### Cell Niches & Tissue Domains
 
@@ -184,6 +196,8 @@
 - [SpatialMNN](https://github.com/Pixel-Dream/spatialMNN) - Identification of shared niches between slides
 - [NicheCompass](https://github.com/Lotfollahi-lab/nichecompass) - End-to-end analysis of spatial multi-omics data
 - [Proust](https://genome.cshlp.org/content/35/7/1621) - Spatial domain detection using contrastive self-supervised learning for spatial multi-omics technologies (multi-modal domains)
+- [STAMP](https://doi.org/10.1038/s41592-024-02463-8) - Spatial Transcriptomics Analysis with topic Modeling, provides interpretable dimension reduction through deep generative modeling discovering tissue domains and cellular communication patterns
+- [DeepGFT](https://doi.org/10.1186/s13059-025-03631-5) - Combines deep learning with graph Fourier transform for spatial domain identification | [GitHub](https://github.com/jxLiu-bio/DeepGFT) | [Zenodo](https://doi.org/10.5281/zenodo.15073243)
 
 ### Cell Distances & Neighborhood
 
@@ -199,6 +213,7 @@
 - [spaTrack](https://www.biorxiv.org/content/10.1101/2023.09.04.556175v2) - Spatial trajectory analysis
 - [scSpace](https://www.biorxiv.org/content/10.1101/2022.05.07.491043v1) - Reconstruction of cell pseudo-space from single-cell RNA sequencing data
 - [SOCS](https://www.biorxiv.org/content/10.1101/2025.03.19.644194v1.full.pdf) - Accurate trajectory inference in time-series spatial transcriptomics with structurally-constrained optimal transport
+- [STORIES](https://doi.org/10.1038/s41592-025-02855-4) - Spatiotemporal Reconstruction Using Optimal Transport for cell trajectory inference from spatial transcriptomics profiled at multiple time points
 
 ### Cell-Cell Communication
 
@@ -297,4 +312,5 @@
 - [CONCH](https://github.com/mahmoodlab/CONCH) - Contrastive learning for histopathology
 - [GIGApath](https://github.com/prov-gigapath/prov-gigapath) - Large-scale pathology foundation model
 - [OmiCLIP](https://www.nature.com/articles/s41592-025-02707-1) - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
+- [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer-data/)
 
