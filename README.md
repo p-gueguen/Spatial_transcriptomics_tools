@@ -85,7 +85,7 @@
 - [SpaGCN](https://github.com/jianhuupenn/SpaGCN) - Spatial graph convolutional network for gene correlation analysis
 - [Tangram](https://github.com/broadinstitute/Tangram) - Transcript distribution prediction and spatial mapping
 - [SpaOTsc](https://github.com/zcang/SpaOTsc) - Spatial imputation via optimal transport
-- Seurat integration workflow - Transfer gene expression from scRNA-seq reference
+- [Seurat integration workflow](https://satijalab.org/seurat/articles/integration_mapping.html) - Transfer gene expression from scRNA-seq reference
 - [Sprod](https://www.nature.com/articles/s41592-022-01560-w#Fig2) - Spatial denoising method
 
 ### Bias Correction
