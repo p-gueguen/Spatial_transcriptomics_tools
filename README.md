@@ -6,6 +6,7 @@
 ## Table of Contents
 
 - [General Tools](#general-tools)
+  - [Nextflow Pipelines](#nextflow--pipelines)
 - [Analysis Pipeline Steps](#analysis-pipeline-steps)
   - [ROI Selection](#roi-selection)
   - [QC](#qc)
@@ -32,7 +33,7 @@
   - [Transcripts + Histology](#transcripts--histology)
 - [Benchmarks](#benchmarks)
 - [Datasets & Foundation Models](#datasets--foundation-models)
-- [Nextflow Pipelines](#nextflow-pipelines)
+
 
 ## General Tools
 
