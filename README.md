@@ -30,8 +30,6 @@
   - [Slide Alignment](#slide-alignment)
   - [Super Resolution](#super-resolution)
   - [Transcripts + Histology](#transcripts--histology)
-  - [Spatial Transcriptomics Methods & Platforms](#spatial-transcriptomics-methods--platforms)
-  - [Specialized Analysis](#specialized-analysis)
 - [Benchmarks](#benchmarks)
 - [Datasets & Foundation Models](#datasets--foundation-models)
 - [Nextflow Pipelines](#nextflow-pipelines)
@@ -50,11 +48,8 @@
 - [LazySlide](https://github.com/rendeirolab/LazySlide) - Framework for whole slide image (WSI) analysis
 - [pasta](https://robinsonlabuzh.github.io/pasta/00-home.html) - Point pattern and lattice data analysis from Robinson lab
 - [rakaia](https://github.com/camlab-bioml/rakaia) - Scalable interactive visualization and analysis of spatial omics including spatial transcriptomics, in the browser ([Website](https://rakaia.io/))
-- [Galaxy SPOC](https://doi.org/S2666-979X(25)00261-7) - Single-cell and Spatial Omics Community with over 175 tools and 120+ training resources in unified FAIR platform | PubMed: 40997812
 - [Thor](https://doi.org/10.1038/s41467-025-62593-1) - Comprehensive platform for cell-level analysis with anti-shrinking Markov diffusion and 10 modular tools paired with Mjolnir web interface
 - [VR-Omics](https://doi.org/10.1186/s13059-025-03630-6) - Free platform-agnostic software with end-to-end automated processing of multi-slice spatial transcriptomics data through biologist-friendly GUI | [Windows](https://doi.org/10.6084/m9.figshare.28259834.v3) | [MacOS](https://doi.org/10.6084/m9.figshare.28340495.v4) | [GitHub](https://github.com/Ramialison-Lab/VR-Omics)
-- [SpatialData](https://doi.org/10.1038/s41592-024-02212-x) - Open universal data framework for spatial omics with unified and extensible multiplatform file format
-- [SPACE](https://doi.org/10.1073/pnas.2412146122) - Spatial Patterning Analysis of Cellular Ensembles using information-theoretic framework for high-plex spatial data
 
 
 ### Nextflow / Pipelines
@@ -265,7 +260,6 @@
 - [TOAST](https://www.biorxiv.org/content/10.1101/2025.04.15.648894v1.full.pdf) - Topography Aware Optimal Transport for Alignment of Spatial Omics Data
 - [STalign](https://jef.works/STalign/notebooks/xenium-xenium-alignment.html) - Alignment of spatial transcriptomics data using diffeomorphic metric mapping
 - [SANTO](https://pmc.ncbi.nlm.nih.gov/articles/PMC11258319/pdf/41467_2024_Article_50308.pdf) - A coarse-to-fine alignment and stitching method for spatial omics
-- [STIM](https://doi.org/10.1016/j.cels.2025.101264) - Spatial Transcriptomics Imaging Framework for visualizing and aligning high-throughput spatial sequencing datasets | PubMed: 40267922 | [GitHub](https://github.com/PreibischLab/STIM)
 
 ### Super Resolution
 
@@ -284,16 +278,6 @@
 - [SpotWhisperer](https://medical-epigenomics.org/papers/spotwhisperer/#citation) - Molecularly informed analysis of histopathology images using natural language
 - [STPath](https://github.com/Graph-and-Geometric-Learning/STPath) - A Generative Foundation Model for Integrating Spatial Transcriptomics and Whole Slide Images
 - [AESTETIK](https://github.com/ratschlab/aestetik) - AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge
-
-### Spatial Transcriptomics Methods & Platforms
-
-- [Stereo-seq V2](https://doi.org/10.1016/j.cell.2025.08.008) - Advanced spatial transcriptomics method using random primers for unbiased transcript capturing on FFPE sections with single-cell resolution | PubMed: 40882628
-- [RAEFISH](https://doi.org/S0092-8674(25)01037-2) - Reverse-padlock Amplicon-Encoding FISH delivering image-based spatial transcriptomics with whole-genome coverage and single-molecule resolution
-- [Error-Robust Codebook Optimization for MERFISH](https://doi.org/10.1126/sciadv.adr4026) - Generates highly optimized error-robust codebooks achieving over 90% of theoretical maximum limit for MERFISH
-
-### Specialized Analysis
-
-- [Spatial Mechano-Transcriptomics Pipeline](https://doi.org/10.1038/s41592-025-02618-1) - Joint statistical analysis of transcriptional and mechanical signals inferring mechanical forces from spatial transcriptomics data
 
 ## Benchmarks
 
