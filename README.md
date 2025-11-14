@@ -87,6 +87,7 @@
 - [SpaOTsc](https://github.com/zcang/SpaOTsc) - Spatial imputation via optimal transport
 - [Seurat integration workflow](https://satijalab.org/seurat/articles/integration_mapping.html) - Transfer gene expression from scRNA-seq reference
 - [Sprod](https://www.nature.com/articles/s41592-022-01560-w#Fig2) - Spatial denoising method
+- [TISSUE](https://github.com/sunericd/TISSUE) - Transcript imputation with spatial single-cell uncertainty estimation
 
 ### Bias Correction
 
@@ -187,7 +188,6 @@
 > (**Smaller**) Cell types → Cell modules/neighborhoods → Niches/tissue domains (**Larger**)
 
 - [BANKSY](https://www.nature.com/articles/s41588-024-01664-3) - Unified cell typing and tissue domain segmentation
-- [TISSUE](https://github.com/sunericd/TISSUE) - Transcript imputation with spatial single-cell uncertainty estimation
 - [CellCharter](https://www.nature.com/articles/s41588-023-01588-4) - Hierarchical niche detection
 - [SpatialGLUE](https://www.nature.com/articles/s41592-024-02316-4) - Multi-omics cell niche identification
 - [smoothclust](https://github.com/lmweber/smoothclust) - Spatial clustering
