@@ -154,7 +154,7 @@
 - [TransST](https://doi.org/10.1186/s12859-025-06099-z) - Transfer learning framework leveraging cell-labeled information from external sources for cell-level heterogeneity inference | [GitHub](https://github.com/shuoshuoliu/TransST)
 - [InSituType](https://github.com/Nanostring-Biostats/InSituType) - Cell typing for CosMx SMI spatial transcriptomics
 - [HieraType](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/tree/Main/_code/HieraType) - Hierarchical cell typing using RNA + protein for CosMx SMI
-- [CosMx-Cell-Profiles](https://github.com/Nanostring-Biostats/CosMx-Cell-Profiles) - Cell profile generation for CosMx SMI
+- [CosMx-Cell-Profiles](https://github.com/Nanostring-Biostats/CosMx-Cell-Profiles) - Collection of reference datasets for CosMx SMI
 
 ### Cell Deconvolution
 
