@@ -51,6 +51,7 @@
 - [rakaia](https://github.com/camlab-bioml/rakaia) - Scalable interactive visualization and analysis of spatial omics including spatial transcriptomics, in the browser ([Website](https://rakaia.io/))
 - [Thor](https://doi.org/10.1038/s41467-025-62593-1) - Comprehensive platform for cell-level analysis with anti-shrinking Markov diffusion and 10 modular tools paired with Mjolnir web interface
 - [VR-Omics](https://doi.org/10.1186/s13059-025-03630-6) - Free platform-agnostic software with end-to-end automated processing of multi-slice spatial transcriptomics data through biologist-friendly GUI | [Windows](https://doi.org/10.6084/m9.figshare.28259834.v3) | [MacOS](https://doi.org/10.6084/m9.figshare.28340495.v4) | [GitHub](https://github.com/Ramialison-Lab/VR-Omics)
+- [CosMx-Analysis-Scratch-Space](https://nanostring-biostats.github.io/CosMx-Analysis-Scratch-Space/) - Analysis resources and tools for CosMx SMI spatial transcriptomics | [GitHub](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space)
 
 
 ### Nextflow / Pipelines
@@ -151,6 +152,9 @@
 - [STALocator](https://doi.org/S2405-4712(25)00028-6) - ST-Aided Locator using deep learning to localize cells from single-cell RNA-seq data onto tissue slices
 - [CMAP](https://doi.org/10.1038/s41467-025-61667-4) - Cellular Mapping of Attributes with Position, maps large-scale individual cells to precise spatial locations using divide-and-conquer strategy
 - [TransST](https://doi.org/10.1186/s12859-025-06099-z) - Transfer learning framework leveraging cell-labeled information from external sources for cell-level heterogeneity inference | [GitHub](https://github.com/shuoshuoliu/TransST)
+- [InSituType](https://github.com/Nanostring-Biostats/InSituType) - Cell typing for CosMx SMI spatial transcriptomics
+- [HieraType](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/tree/Main/_code/HieraType) - Hierarchical cell typing using RNA + protein for CosMx SMI
+- [CosMx-Cell-Profiles](https://github.com/Nanostring-Biostats/CosMx-Cell-Profiles) - Cell profile generation for CosMx SMI
 
 ### Cell Deconvolution
 
