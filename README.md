@@ -203,6 +203,7 @@
 - [Proust](https://genome.cshlp.org/content/35/7/1621) - Spatial domain detection using contrastive self-supervised learning for spatial multi-omics technologies (multi-modal domains)
 - [STAMP](https://doi.org/10.1038/s41592-024-02463-8) - Spatial Transcriptomics Analysis with topic Modeling, provides interpretable dimension reduction through deep generative modeling discovering tissue domains and cellular communication patterns
 - [DeepGFT](https://doi.org/10.1186/s13059-025-03631-5) - Combines deep learning with graph Fourier transform for spatial domain identification | [GitHub](https://github.com/jxLiu-bio/DeepGFT) | [Zenodo](https://doi.org/10.5281/zenodo.15073243)
+- [novae](https://github.com/MICS-Lab/novae) - Deep learning framework for spatial domain detection and tissue organization analysis
 
 ### Cell Distances & Neighborhood
 
@@ -219,6 +220,7 @@
 - [scSpace](https://www.biorxiv.org/content/10.1101/2022.05.07.491043v1) - Reconstruction of cell pseudo-space from single-cell RNA sequencing data
 - [SOCS](https://www.biorxiv.org/content/10.1101/2025.03.19.644194v1.full.pdf) - Accurate trajectory inference in time-series spatial transcriptomics with structurally-constrained optimal transport
 - [STORIES](https://doi.org/10.1038/s41592-025-02855-4) - Spatiotemporal Reconstruction Using Optimal Transport for cell trajectory inference from spatial transcriptomics profiled at multiple time points
+- [troutpy](https://github.com/theislab/troutpy) - Trajectory inference and analysis for spatial transcriptomics data
 
 ### Cell-Cell Communication
 
