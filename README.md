@@ -203,6 +203,7 @@
 - [Proust](https://genome.cshlp.org/content/35/7/1621) - Spatial domain detection using contrastive self-supervised learning for spatial multi-omics technologies (multi-modal domains)
 - [STAMP](https://doi.org/10.1038/s41592-024-02463-8) - Spatial Transcriptomics Analysis with topic Modeling, provides interpretable dimension reduction through deep generative modeling discovering tissue domains and cellular communication patterns
 - [DeepGFT](https://doi.org/10.1186/s13059-025-03631-5) - Combines deep learning with graph Fourier transform for spatial domain identification | [GitHub](https://github.com/jxLiu-bio/DeepGFT) | [Zenodo](https://doi.org/10.5281/zenodo.15073243)
+- [novae](https://github.com/MICS-Lab/novae) - Deep learning framework for spatial domain detection and tissue organization analysis
 
 ### Cell Distances & Neighborhood
 
@@ -246,6 +247,7 @@
 - [Bento](https://github.com/YeoLab/bento-tools) - Python toolkit for subcellular analysis of spatial transcriptomics data
 - [FISHfactor](https://academic.oup.com/bioinformatics/article/39/5/btad183/7114027) - Analysis of subcellular transcript patterns
 - [InSTAnT](https://www.nature.com/articles/s41467-024-49457-w) - Intracellular spatial transcript analysis
+- [troutpy](https://github.com/theislab/troutpy) - Analysis of transcripts outside segmented cells in spatial transcriptomics data
 
 ### Copy Number Variations
 
