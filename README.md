@@ -220,7 +220,6 @@
 - [scSpace](https://www.biorxiv.org/content/10.1101/2022.05.07.491043v1) - Reconstruction of cell pseudo-space from single-cell RNA sequencing data
 - [SOCS](https://www.biorxiv.org/content/10.1101/2025.03.19.644194v1.full.pdf) - Accurate trajectory inference in time-series spatial transcriptomics with structurally-constrained optimal transport
 - [STORIES](https://doi.org/10.1038/s41592-025-02855-4) - Spatiotemporal Reconstruction Using Optimal Transport for cell trajectory inference from spatial transcriptomics profiled at multiple time points
-- [troutpy](https://github.com/theislab/troutpy) - Trajectory inference and analysis for spatial transcriptomics data
 
 ### Cell-Cell Communication
 
@@ -248,6 +247,7 @@
 - [Bento](https://github.com/YeoLab/bento-tools) - Python toolkit for subcellular analysis of spatial transcriptomics data
 - [FISHfactor](https://academic.oup.com/bioinformatics/article/39/5/btad183/7114027) - Analysis of subcellular transcript patterns
 - [InSTAnT](https://www.nature.com/articles/s41467-024-49457-w) - Intracellular spatial transcript analysis
+- [troutpy](https://github.com/theislab/troutpy) - Analysis of transcripts outside segmented cells in spatial transcriptomics data
 
 ### Copy Number Variations
 
