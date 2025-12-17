@@ -49,9 +49,9 @@
 - [LazySlide](https://github.com/rendeirolab/LazySlide) - Framework for whole slide image (WSI) analysis
 - [pasta](https://robinsonlabuzh.github.io/pasta/00-home.html) - Point pattern and lattice data analysis from Robinson lab
 - [rakaia](https://github.com/camlab-bioml/rakaia) - Scalable interactive visualization and analysis of spatial omics including spatial transcriptomics, in the browser ([Website](https://rakaia.io/))
-- **<a href="https://ludvigla.github.io/semla/index.html">semla</a>** - Useful tools for Spatially Resolved Transcriptomics data analysis and visualization
-- **<a href="https://github.com/sgunz/sosta">sosta</a>** - Spatial Omic Structure Analysis
-- **<a href="https://themilolab.github.io/SPATA2/index.html">SPATA2</a>** - Spatial transcriptomics analysis toolkit
+- <a href="https://ludvigla.github.io/semla/index.html">semla</a> - Useful tools for Spatially Resolved Transcriptomics data analysis and visualization
+- <a href="https://github.com/sgunz/sosta">sosta</a> - Spatial Omic Structure Analysis
+- <a href="https://themilolab.github.io/SPATA2/index.html">SPATA2</a> - Spatial transcriptomics analysis toolkit
 - [Thor](https://doi.org/10.1038/s41467-025-62593-1) - Comprehensive platform for cell-level analysis with anti-shrinking Markov diffusion and 10 modular tools paired with Mjolnir web interface
 - [VR-Omics](https://doi.org/10.1186/s13059-025-03630-6) - Free platform-agnostic software with end-to-end automated processing of multi-slice spatial transcriptomics data through biologist-friendly GUI | [Windows](https://doi.org/10.6084/m9.figshare.28259834.v3) | [MacOS](https://doi.org/10.6084/m9.figshare.28340495.v4) | [GitHub](https://github.com/Ramialison-Lab/VR-Omics)
 - [CosMx-Analysis-Scratch-Space](https://nanostring-biostats.github.io/CosMx-Analysis-Scratch-Space/) - Analysis resources and tools for CosMx SMI spatial transcriptomics | [GitHub](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space)
@@ -170,8 +170,8 @@
 
 - [C-SIDE](https://github.com/dmcable/spacexr) - Cell type-Specific Inference of Differential Expression in spatial transcriptomics
 - [Niche-DE](https://github.com/kaishumason/NicheDE) - Niche-differential gene expression analysis identifying context-dependent cell-cell interactions
-- **<a href="https://www.biorxiv.org/content/10.1101/2024.08.02.606405v2">smiDE</a>** - Spatial differential expression method
-- **<a href="https://github.com/FridleyLab/spatialGE">spatialGE</a>** - Spatial gene expression analysis
+- <a href="https://www.biorxiv.org/content/10.1101/2024.08.02.606405v2">smiDE</a> - Spatial differential expression method
+- <a href="https://github.com/FridleyLab/spatialGE">spatialGE</a> - Spatial gene expression analysis
 - [Vespucci](https://github.com/neurorestore/Vespucci) - Prioritize spatial regions involved in the response to an experimental perturbation in spatial transcriptomics
 
 ### Spatially Variable Genes
@@ -296,7 +296,7 @@
 - [Deconvolution benchmark](https://www.biorxiv.org/content/10.1101/2024.04.03.586404v1.full) - Comprehensive comparison
 - [RCTD and Cell2location benchmark](https://www.biorxiv.org/content/10.1101/2023.03.22.533802v3.full.pdf) - Claims these are the best methods
 - [Spatial clustering benchmark](https://www.nature.com/articles/s41592-024-02215-8) - Comparison of clustering methods
-- **<a href="https://github.com/latchbio/spatialbench">Spatialbench</a>** - Benchmark for evaluating AI agents on spatial biology analysis tasks
+- <a href="https://github.com/latchbio/spatialbench">Spatialbench</a> - Benchmark for evaluating AI agents on spatial biology analysis tasks
 - [Nature Communications review](https://www.nature.com/articles/s41467-023-37168-7#Fig2) - Confirms Cell2location performance
 - [Open problems benchmark](https://openproblems.bio/results/spatial_decomposition/) - Cell2location is top performer
 - [Neighborhod benchmark](https://www.biorxiv.org/content/10.1101/2025.03.31.646289v2.full.pdf) - New COZI method top performer
@@ -304,7 +304,7 @@
 - [Benchmarking of spatial transcriptomics platforms across six cancer types](https://www.biorxiv.org/content/10.1101/2024.05.21.593407v2) - Comprehensive platform comparison
 - [PathBench](https://birkhoffkiki.github.io/PathBench/) - Pathology benchmark
 - [SPATCH Benchmark - 2025](https://www.nature.com/articles/s41467-025-64292-3) - Showing Xenium performs best
-- **<a href="https://github.com/MICS-Lab/thunder">Thunder</a>** - Pathology benchmark
+- <a href="https://github.com/MICS-Lab/thunder">Thunder</a> - Pathology benchmark
 
 ## Datasets & Foundation Models
 
@@ -321,11 +321,10 @@
 - [Bioptimus H-optimus-0](https://huggingface.co/bioptimus/H-optimus-0) - Biology-focused foundation model
 - [Bioptimus H-optimus-1](https://www.bioptimus.com/news/bioptimus-launches-h-optimus-1) - Latest biology-focused foundation model from Bioptimus
 - [DeepCell dataset](https://exploredata.deepcell.com/cell-visualizations/9/versions/1) - CNN + human features embeddings
-- **<a href="https://www.nature.com/articles/s41591-025-03982-3">TITAN</a>** - A multimodal whole-slide foundation model for pathology
+- <a href="https://www.nature.com/articles/s41591-025-03982-3">TITAN</a> - A multimodal whole-slide foundation model for pathology
 - [Virchow](https://huggingface.co/paige-ai/Virchow) - Foundation model for computational pathology
 - [UNI](https://github.com/mahmoodlab/UNI) and [UNI2](https://huggingface.co/MahmoodLab/UNI2-h) - Universal pathology foundation models
 - [CONCH](https://github.com/mahmoodlab/CONCH) - Contrastive learning for histopathology
 - [GIGApath](https://github.com/prov-gigapath/prov-gigapath) - Large-scale pathology foundation model
 - [OmiCLIP](https://www.nature.com/articles/s41592-025-02707-1) - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
 - [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer-data/)
-
