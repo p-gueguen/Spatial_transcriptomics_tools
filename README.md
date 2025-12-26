@@ -165,6 +165,7 @@
 - [Cell2location](https://github.com/BayraktarLab/cell2location) - Mapping scRNA-seq to spatial data
 - [SPOTlight](https://github.com/MarcElosua/SPOTlight) - Seeded NMF regression to deconvolute spatial spots
 - [CARD](https://github.com/YingMa0107/CARD) - Spatially informed cell-type deconvolution
+- [FlashDeconv](https://github.com/cafferychen777/flashdeconv) - High-performance deconvolution using randomized sketching, achieves linear O(N) scaling for Visium HD and other high-resolution platforms
 
 ### Differential Expression
 
