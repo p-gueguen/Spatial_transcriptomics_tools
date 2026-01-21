@@ -100,6 +100,7 @@
 - [Statial](https://sydneybiox.github.io/Statial/) - Correction of spill-over effects
 - [ovrl.py](https://github.com/HiDiHlabs/ovrl.py) - A python tool to investigate vertical signal properties of imaging-based spatial transcriptomics data
 - [SPLIT](https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1.full.pdf) - SPLIT effectively resolves mixed signals and enhances cell-type purity
+- [cellAdmix](https://github.com/kharchenkolab/cellAdmix) - From Kharchenko lab - Evaluating and correcting cell admixtures in imaging-based spatial transcriptomics data.
 
 
 ### Cell Segmentation
