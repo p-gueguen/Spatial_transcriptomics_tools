@@ -179,6 +179,7 @@
 - [smiDE](https://www.biorxiv.org/content/10.1101/2024.08.02.606405v2) - Spatial differential expression method | [GitHub](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/tree/Main/_code/smiDE)
 - [spatialGE](https://github.com/FridleyLab/spatialGE) - Spatial gene expression analysis
 - [Vespucci](https://github.com/neurorestore/Vespucci) - Prioritize spatial regions involved in the response to an experimental perturbation in spatial transcriptomics
+- [CSDE](https://github.com/YosefLab/CSDE) - Corrected Spatial Differential Expression using Prediction-Powered Inference to account for preprocessing uncertainties (segmentation, quantification, cell typing)
 
 ### Spatially Variable Genes
 
@@ -217,6 +218,7 @@
 - [STAMP](https://doi.org/10.1038/s41592-024-02463-8) - Spatial Transcriptomics Analysis with topic Modeling, provides interpretable dimension reduction through deep generative modeling discovering tissue domains and cellular communication patterns
 - [DeepGFT](https://doi.org/10.1186/s13059-025-03631-5) - Combines deep learning with graph Fourier transform for spatial domain identification | [GitHub](https://github.com/jxLiu-bio/DeepGFT) | [Zenodo](https://doi.org/10.5281/zenodo.15073243)
 - [novae](https://github.com/MICS-Lab/novae) - Deep learning framework for spatial domain detection and tissue organization analysis
+- [GARDEN](https://www.nature.com/articles/s41467-026-68500-6) - Graph-based dynamic attention framework for characterizing rare pathogenic cell populations, enables 3D tissue reconstruction across tissues, species, and resolution scales
 
 ### Cell Distances & Neighborhood
 
@@ -340,3 +342,4 @@
 - [GIGApath](https://github.com/prov-gigapath/prov-gigapath) - Large-scale pathology foundation model
 - [OmiCLIP](https://www.nature.com/articles/s41592-025-02707-1) - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
 - [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer-data/)
+- [FOCUS](https://www.biorxiv.org/content/10.64898/2025.12.23.696267v2) - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
