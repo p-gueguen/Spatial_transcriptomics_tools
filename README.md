@@ -163,6 +163,7 @@
 - [InSituType](https://github.com/Nanostring-Biostats/InSituType) - Cell typing for CosMx SMI spatial transcriptomics
 - [HieraType](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/tree/Main/_code/HieraType) - Hierarchical cell typing using RNA + protein for CosMx SMI
 - [CosMx-Cell-Profiles](https://github.com/Nanostring-Biostats/CosMx-Cell-Profiles) - Collection of reference datasets for CosMx SMI
+- [GARDEN](https://www.nature.com/articles/s41467-026-68500-6) - Graph-based dynamic attention framework for identifying rare pathogenic cell populations (disease-driving cells often missed by standard methods), enables 3D tissue reconstruction
 
 ### Cell Deconvolution
 
@@ -218,7 +219,6 @@
 - [STAMP](https://doi.org/10.1038/s41592-024-02463-8) - Spatial Transcriptomics Analysis with topic Modeling, provides interpretable dimension reduction through deep generative modeling discovering tissue domains and cellular communication patterns
 - [DeepGFT](https://doi.org/10.1186/s13059-025-03631-5) - Combines deep learning with graph Fourier transform for spatial domain identification | [GitHub](https://github.com/jxLiu-bio/DeepGFT) | [Zenodo](https://doi.org/10.5281/zenodo.15073243)
 - [novae](https://github.com/MICS-Lab/novae) - Deep learning framework for spatial domain detection and tissue organization analysis
-- [GARDEN](https://www.nature.com/articles/s41467-026-68500-6) - Graph-based dynamic attention framework for characterizing rare pathogenic cell populations, enables 3D tissue reconstruction across tissues, species, and resolution scales
 
 ### Cell Distances & Neighborhood
 
