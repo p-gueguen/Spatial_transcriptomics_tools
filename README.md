@@ -26,6 +26,7 @@
   - [Metacells & Scalability](#metacells--scalability)
   - [Subcellular Analysis](#subcellular-analysis)
   - [Copy Number Variations](#copy-number-variations)
+  - [Isoform Analysis](#isoform-analysis)
   - [Transcription Factors & Gene Regulatory Networks](#transcription-factors--gene-regulatory-networks)
 - [Technical Enhancements](#technical-enhancements)
   - [Slide Alignment](#slide-alignment)
@@ -56,6 +57,7 @@
 - [Thor](https://doi.org/10.1038/s41467-025-62593-1) - Comprehensive platform for cell-level analysis with anti-shrinking Markov diffusion and 10 modular tools paired with Mjolnir web interface
 - [VR-Omics](https://doi.org/10.1186/s13059-025-03630-6) - Free platform-agnostic software with end-to-end automated processing of multi-slice spatial transcriptomics data through biologist-friendly GUI | [Windows](https://doi.org/10.6084/m9.figshare.28259834.v3) | [MacOS](https://doi.org/10.6084/m9.figshare.28340495.v4) | [GitHub](https://github.com/Ramialison-Lab/VR-Omics)
 - [CosMx-Analysis-Scratch-Space](https://nanostring-biostats.github.io/CosMx-Analysis-Scratch-Space/) - Analysis resources and tools for CosMx SMI spatial transcriptomics | [GitHub](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space)
+- [SpaceSequest](https://github.com/interactivereport/SpaceSequest) - Unified pipeline for analysis, visualization, and publication of spatial transcriptomics data from Visium, Visium HD, Xenium, GeoMx, and CosMx | [Tutorial](https://interactivereport.github.io/SpaceSequest/tutorial/docs/index.html)
 
 
 ### Nextflow / Pipelines
@@ -127,6 +129,7 @@
 - [Bering](https://doi.org/10.1038/s41467-025-60898-9) - Graph deep learning for joint noise-aware cell segmentation and molecular annotation in 2D and 3D spatial transcriptomics
 - [STP](https://doi.org/10.1038/s41467-025-59782-3) - Single-cell Partition for subcellular spatially-resolved transcriptomics integrating data with nuclei-stained images
 - [Deep learning-based segmentation](https://doi.org/10.1126/sciadv.adw4871) - Extensively trained nuclear and membrane segmentation models for precise transcript assignment in CosMx SMI data
+- [CellSAM](https://github.com/vanvalenlab/cellSAM) - Foundation model for cell segmentation achieving state-of-the-art performance across cellular targets (bacteria, tissue, yeast, cell culture) and imaging modalities (brightfield, fluorescence, phase, multiplexed) | [Paper](https://www.nature.com/articles/s41592-025-02879-w) | [Web App](https://cellsam.deepcell.org)
 
 **Segmentation-free methods:**
 - [SSAM](https://github.com/HiDiHlabs/ssam) - Subcellular segmentation-free analysis by multidimensional mRNA density
@@ -173,7 +176,7 @@
 
 - [C-SIDE](https://github.com/dmcable/spacexr) - Cell type-Specific Inference of Differential Expression in spatial transcriptomics
 - [Niche-DE](https://github.com/kaishumason/NicheDE) - Niche-differential gene expression analysis identifying context-dependent cell-cell interactions
-- [smiDE](https://www.biorxiv.org/content/10.1101/2024.08.02.606405v2) - Spatial differential expression method
+- [smiDE](https://www.biorxiv.org/content/10.1101/2024.08.02.606405v2) - Spatial differential expression method | [GitHub](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/tree/Main/_code/smiDE)
 - [spatialGE](https://github.com/FridleyLab/spatialGE) - Spatial gene expression analysis
 - [Vespucci](https://github.com/neurorestore/Vespucci) - Prioritize spatial regions involved in the response to an experimental perturbation in spatial transcriptomics
 
@@ -186,6 +189,7 @@
 - [SOMDE](https://github.com/XuegongLab/somde) - Self-organizing map for spatially variable gene detection with optimization
 - [trendsceek](https://github.com/edsgard/trendsceek) - Identification of spatial expression trends
 - [nnSVG](https://www.biorxiv.org/content/10.1101/2022.05.16.492124v1) - Scalable identification of spatially variable genes using nearest-neighbor Gaussian processes
+- [SLOPER](https://github.com/chitra-lab/SLOPER) - Score-based learning of Poisson-modeled expression rates for spatial gene modules and tissue organization patterns
 
 ### Integration
 
@@ -194,6 +198,7 @@
 - [SIMO](https://doi.org/10.1038/s41467-025-56523-4) - Spatial Integration of Multi-Omics through probabilistic alignment integrating spatial transcriptomics with multiple single-cell modalities
 - [GSI](https://doi.org/10.1093/bioinformatics/btaf350) - Gene Spatial Integration using deep learning with representation learning to extract spatial distribution of genes | [GitHub](https://github.com/Riandanis/Spatial_Integration_GSI) | [Zenodo](https://doi.org/10.5281/zenodo.15165223)
 - [SPACE-seq](https://doi.org/10.1073/pnas.2424070122) - Unified molecular approach for spatial multiomics enabling simultaneous analysis of chromatin accessibility, mitochondrial DNA mutations, and gene expression on standard 10× Genomics Visium CytAssist platform
+- [LLOKI](https://www.biorxiv.org/content/10.1101/2025.03.31.646238v2) - Cross-platform spatial transcriptomics integration using optimal transport and scGPT foundation models for unified features across different gene panels (RECOMB 2025)
 
 ### Cell Niches & Tissue Domains
 
@@ -261,6 +266,10 @@
 
 - [CalicoST](https://www.nature.com/articles/s41592-024-02438-9#Fig1) - CNV detection in spatial data
 - [inSituCNV](https://github.com/Moldia/InSituCNV) - Inference of Copy Number Variations in Image-Based Spatial Transcriptomics
+
+### Isoform Analysis
+
+- [SPLISOSM](https://github.com/JiayuSuPKU/SPLISOSM) - Spatial isoform statistical modeling for detecting isoform-resolution patterns (alternative splicing, polyadenylation) from spatial transcriptomics data | [Paper](https://www.nature.com/articles/s41587-025-02965-6) | [Docs](https://splisosm.readthedocs.io/)
 
 ### Transcription Factors & Gene Regulatory Networks
 
