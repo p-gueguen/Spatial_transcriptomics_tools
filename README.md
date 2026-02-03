@@ -326,6 +326,7 @@
 
 - [HISSTA](https://github.com/ercsb-sp/HISSTA/tree/v1.0) - Histopathology spatial transcriptomics dataset
 - [STOmicsDB](https://db.cngb.org/stomics/) - Spatial transcriptomics database
+- [HistAI Pathology Datahub](https://github.com/histai/datahub) - Skills repo / HistAI Whole Slide Image Data Hub
 
 ### Foundation Models
 
@@ -343,3 +344,4 @@
 - [OmiCLIP](https://www.nature.com/articles/s41592-025-02707-1) - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
 - [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer-data/)
 - [FOCUS](https://www.biorxiv.org/content/10.64898/2025.12.23.696267v2) - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
+- [Atlas 2](https://arxiv.org/pdf/2601.05148) - Foundation models for clinical deployment
