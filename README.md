@@ -103,6 +103,7 @@
 - [ovrl.py](https://github.com/HiDiHlabs/ovrl.py) - A python tool to investigate vertical signal properties of imaging-based spatial transcriptomics data
 - [SPLIT](https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1.full.pdf) - SPLIT effectively resolves mixed signals and enhances cell-type purity
 - [cellAdmix](https://github.com/kharchenkolab/cellAdmix) - From Kharchenko lab - Evaluating and correcting cell admixtures in imaging-based spatial transcriptomics data.
+- [DenoIST](https://github.com/aaronkwc/DenoIST) - R based - Denoising Image-based Spatial Transcriptomics data
 
 
 ### Cell Segmentation
