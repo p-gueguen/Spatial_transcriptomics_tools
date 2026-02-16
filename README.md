@@ -104,7 +104,7 @@
 - [SPLIT](https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1.full.pdf) - SPLIT effectively resolves mixed signals and enhances cell-type purity
 - [cellAdmix](https://github.com/kharchenkolab/cellAdmix) - From Kharchenko lab - Evaluating and correcting cell admixtures in imaging-based spatial transcriptomics data.
 - [DenoIST](https://github.com/aaronkwc/DenoIST) - R based - Denoising Image-based Spatial Transcriptomics data
-
+- [MisTIC](https://github.com/yunguan-wang/MisTic-Wanglab) - A probabilistic model for correcting mis-assigned transcripts due to cell segmentation errors
 
 ### Cell Segmentation
 
