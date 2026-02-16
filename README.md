@@ -95,6 +95,7 @@
 - [Seurat integration workflow](https://satijalab.org/seurat/articles/integration_mapping.html) - Transfer gene expression from scRNA-seq reference
 - [Sprod](https://www.nature.com/articles/s41592-022-01560-w#Fig2) - Spatial denoising method
 - [TISSUE](https://github.com/sunericd/TISSUE) - Transcript imputation with spatial single-cell uncertainty estimation
+- [SpaIM](https://github.com/QSong-github/SpaIM) - Single-cell Spatial Transcriptomics Imputation via Style Transfer
 
 ### Bias Correction
 
