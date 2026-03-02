@@ -75,7 +75,7 @@
 
 ### QC
 
-- [SpaceTrooper](https://htmlpreview.github.io/?https://github.com/drighelli/SpaceTrooper/blob/main/vignette/introduction.html) - [R] - Quality control for spatial transcriptomics
+- [SpaceTrooper](https://github.com/drighelli/SpaceTrooper) - [R] - Quality control for spatial transcriptomics
 - [GrandQC](https://github.com/cpath-ukk/grandqc) - [Python] - Comprehensive solution for quality control in digital pathology
 - [SpotSweeper](https://github.com/MicTott/SpotSweeper) - [R] - Spatially aware quality control for spatial transcriptomics
 - [MerQuaCo](https://github.com/AllenInstitute/merquaco) - [Python] - A computational tool for quality control in image-based spatial transcriptomics
@@ -301,7 +301,7 @@
 - [HEST](https://github.com/mahmoodlab/HEST) - [Python] - Dataset for Spatial Transcriptomics and Histology Image Analysis
 - [CellLENS](https://github.com/sggao/celllens/) - [Python] - Cell Local Environment Neighborhood Scan
 - [DeepSpot](https://github.com/ratschlab/he2st) - [Python] - Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images
-- [SpotWhisperer](https://github.com/BockLab/cellxgene) - [Python] - Molecularly informed analysis of histopathology images using natural language
+- [SpotWhisperer](https://github.com/epigen/cellxgene) - [Python] - Molecularly informed analysis of histopathology images using natural language
 - [STPath](https://github.com/Graph-and-Geometric-Learning/STPath) - [Python] - A Generative Foundation Model for Integrating Spatial Transcriptomics and Whole Slide Images
 - [AESTETIK](https://github.com/ratschlab/aestetik) - [Python] - AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge
 
@@ -342,6 +342,6 @@
 - [CONCH](https://github.com/mahmoodlab/CONCH) - [Python] - Contrastive learning for histopathology
 - [GIGApath](https://github.com/prov-gigapath/prov-gigapath) - [Python] - Large-scale pathology foundation model
 - [OmiCLIP](https://github.com/GuangyuWangLab2021/Loki) - [Python] - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
-- [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - [Python] - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer-data/)
+- [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - [Python] - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer)
 - [FOCUS](https://github.com/LHY1007/FOCUS) - [Python] - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
 - [Atlas 2](https://github.com/cellur-m/pathology_atlas) - [Python] - Foundation models for clinical deployment
