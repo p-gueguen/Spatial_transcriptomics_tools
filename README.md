@@ -253,7 +253,7 @@
 
 ### Metacells & Scalability
 
-- [MetaSpot](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btae734/7919601) - [R] - Metacell analysis for spatial data
+- [SuperSpot](https://github.com/GfellerLab/SuperSpot) - [R] - Metacell analysis for spatial data
 - [SEraster](https://github.com/JEFworks-Lab/SEraster) - [R] - Rasterization method for spatial data processing
 
 ### Subcellular Analysis
