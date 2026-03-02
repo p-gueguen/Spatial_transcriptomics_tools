@@ -39,14 +39,14 @@
 ## General Tools
 
 - [Best practices Bioconductor](https://lmweber.org/OSTA/) - [R] - Principles for statistical analysis of spatial transcriptomics data
-- [squidpy](https://squidpy.readthedocs.io/en/stable/) - [Python] - Spatial single cell analysis toolkit from scverse
-- [Giotto](https://giottosuite.readthedocs.io/en/latest/) - [R/Python] - Comprehensive spatial data analysis suite
-- [Vitessce](http://vitessce.io/) - [JavaScript] - Visual integration tool for exploration of spatial single cell experiments
+- [squidpy](https://github.com/scverse/squidpy) - [Python] - Spatial single cell analysis toolkit from scverse
+- [Giotto](https://github.com/drieslab/Giotto) - [R/Python] - Comprehensive spatial data analysis suite
+- [Vitessce](https://github.com/vitessce/vitessce) - [JavaScript] - Visual integration tool for exploration of spatial single cell experiments
 - [Voyager](https://github.com/pachterlab/voyager) - [R] - Spatial transcriptomics visualization from Pachter lab
-- [BASS](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02734-7) - [R] - Multiple sample analysis
+- [BASS](https://github.com/zhengli09/BASS) - [R] - Multiple sample analysis
 - [SpaVAE](https://github.com/ttgump/spaVAE) - [Python] - All-purpose tool for dimension reduction, visualization, clustering, batch integration, denoising, differential expression, spatial interpolation, and resolution enhancement
 - [sopa](https://github.com/gustaveroussy/sopa) - [Python] - Spatial omics processing and analysis
-- [SpatialAgent](https://www.biorxiv.org/content/10.1101/2025.04.03.646459v1.full.pdf) - [Python] - An autonomous AI agent for spatial biology
+- [SpatialAgent](https://github.com/Genentech/SpatialAgent) - [Python] - An autonomous AI agent for spatial biology
 - [ChatSpatial](https://github.com/cafferychen777/ChatSpatial) - [Python] - MCP server enabling spatial transcriptomics analysis via natural language, integrating 60+ methods including SpaGCN, Cell2location, LIANA+, CellRank for Visium, Xenium, MERFISH | [Docs](https://cafferychen777.github.io/ChatSpatial/) | [PyPI](https://pypi.org/project/chatspatial/)
 - [LazySlide](https://github.com/rendeirolab/LazySlide) - [Python] - Framework for whole slide image (WSI) analysis
 - [pasta](https://robinsonlabuzh.github.io/pasta/00-home.html) - [R] - Point pattern and lattice data analysis from Robinson lab
@@ -54,7 +54,7 @@
 - [semla](https://ludvigla.github.io/semla/index.html) - [R] - Useful tools for Spatially Resolved Transcriptomics data analysis and visualization
 - [sosta](https://github.com/sgunz/sosta) - [Python] - Spatial Omic Structure Analysis
 - [SPATA2](https://themilolab.github.io/SPATA2/index.html) - [R] - Spatial transcriptomics analysis toolkit
-- [Thor](https://doi.org/10.1038/s41467-025-62593-1) - [Python] - Comprehensive platform for cell-level analysis with anti-shrinking Markov diffusion and 10 modular tools paired with Mjolnir web interface
+- [Thor](https://github.com/GuangyuWangLab2021/Thor) - [Python] - Comprehensive platform for cell-level analysis with anti-shrinking Markov diffusion and 10 modular tools paired with Mjolnir web interface
 - [VR-Omics](https://doi.org/10.1186/s13059-025-03630-6) - [GUI] - Free platform-agnostic software with end-to-end automated processing of multi-slice spatial transcriptomics data through biologist-friendly GUI | [Windows](https://doi.org/10.6084/m9.figshare.28259834.v3) | [MacOS](https://doi.org/10.6084/m9.figshare.28340495.v4) | [GitHub](https://github.com/Ramialison-Lab/VR-Omics)
 - [CosMx-Analysis-Scratch-Space](https://nanostring-biostats.github.io/CosMx-Analysis-Scratch-Space/) - [R/Python] - Analysis resources and tools for CosMx SMI spatial transcriptomics | [GitHub](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space)
 - [SpaceSequest](https://github.com/interactivereport/SpaceSequest) - [R] - Unified pipeline for analysis, visualization, and publication of spatial transcriptomics data from Visium, Visium HD, Xenium, GeoMx, and CosMx | [Tutorial](https://interactivereport.github.io/SpaceSequest/tutorial/docs/index.html)
@@ -77,13 +77,13 @@
 
 - [SpaceTrooper](https://htmlpreview.github.io/?https://github.com/drighelli/SpaceTrooper/blob/main/vignette/introduction.html) - [R] - Quality control for spatial transcriptomics
 - [GrandQC](https://github.com/cpath-ukk/grandqc) - [Python] - Comprehensive solution for quality control in digital pathology
-- [SpotSweeper](https://www.nature.com/articles/s41592-025-02713-3#Fig1) - [R] - Spatially aware quality control for spatial transcriptomics
-- [MerQuaCo](https://elifesciences.org/reviewed-preprints/105149) - [Python] - A computational tool for quality control in image-based spatial transcriptomics
+- [SpotSweeper](https://github.com/MicTott/SpotSweeper) - [R] - Spatially aware quality control for spatial transcriptomics
+- [MerQuaCo](https://github.com/AllenInstitute/merquaco) - [Python] - A computational tool for quality control in image-based spatial transcriptomics
 
 ### Normalization
 
 - [Cell volume normalization](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03303-w#Fig7) - [R] - Recommended for imaging-based techniques, especially with small probe lists
-- [SpaNorm](https://doi.org/10.1186/s13059-025-03565-y) - [R] - First spatially-aware normalization method that concurrently models library size effects and underlying biology | [Bioconductor](https://doi.org/10.18129/B9.bioc.SpaNorm)
+- [SpaNorm](https://github.com/bhuvad/SpaNorm) - [R] - First spatially-aware normalization method that concurrently models library size effects and underlying biology | [Bioconductor](https://doi.org/10.18129/B9.bioc.SpaNorm)
 
 ### Gene Imputation & Denoising
 
@@ -93,16 +93,16 @@
 - [Tangram](https://github.com/broadinstitute/Tangram) - [Python] - Transcript distribution prediction and spatial mapping
 - [SpaOTsc](https://github.com/zcang/SpaOTsc) - [Python] - Spatial imputation via optimal transport
 - [Seurat integration workflow](https://satijalab.org/seurat/articles/integration_mapping.html) - [R] - Transfer gene expression from scRNA-seq reference
-- [Sprod](https://www.nature.com/articles/s41592-022-01560-w#Fig2) - [Python] - Spatial denoising method
+- [Sprod](https://github.com/yunguan-wang/SPROD) - [Python] - Spatial denoising method
 - [TISSUE](https://github.com/sunericd/TISSUE) - [Python] - Transcript imputation with spatial single-cell uncertainty estimation
 - [SpaIM](https://github.com/QSong-github/SpaIM) - [Python] - Single-cell Spatial Transcriptomics Imputation via Style Transfer
 
 ### Bias Correction
 
-- [ResolVI](https://www.biorxiv.org/content/biorxiv/early/2025/01/24/2025.01.20.634005.full.pdf) - [Python] - Bias correction method
+- [ResolVI](https://github.com/scverse/scvi-tools) - [Python] - Bias correction method
 - [Statial](https://sydneybiox.github.io/Statial/) - [R] - Correction of spill-over effects
 - [ovrl.py](https://github.com/HiDiHlabs/ovrl.py) - [Python] - A python tool to investigate vertical signal properties of imaging-based spatial transcriptomics data
-- [SPLIT](https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1.full.pdf) - [Python] - SPLIT effectively resolves mixed signals and enhances cell-type purity
+- [SPLIT](https://github.com/bdsc-tds/SPLIT) - [R] - SPLIT effectively resolves mixed signals and enhances cell-type purity
 - [cellAdmix](https://github.com/kharchenkolab/cellAdmix) - [R] - From Kharchenko lab - Evaluating and correcting cell admixtures in imaging-based spatial transcriptomics data.
 - [DenoIST](https://github.com/aaronkwc/DenoIST) - [R] - Denoising Image-based Spatial Transcriptomics data
 - [MisTIC](https://github.com/yunguan-wang/MisTic-Wanglab) - [Python] - A probabilistic model for correcting mis-assigned transcripts due to cell segmentation errors
@@ -113,23 +113,23 @@
 
 - [Baysor](https://github.com/kharchenkolab/Baysor) - [Julia] - Bayesian segmentation of spatial transcriptomics data
 - [Cellpose](https://github.com/MouseLand/cellpose) - [Python] - Generalist algorithm for cellular segmentation
-  - [Cellpose 3](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v2) - With supersampling/restoration capabilities
-  - [Cellpose-SAM](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1) - Cell and nucleus segmentation with superhuman generalization, works in 3D with various image conditions
+  - [Cellpose 3](https://github.com/MouseLand/cellpose) - With supersampling/restoration capabilities
+  - [Cellpose-SAM](https://github.com/MouseLand/cellpose) - Cell and nucleus segmentation with superhuman generalization, works in 3D with various image conditions
 - [DeepCell](https://github.com/vanvalenlab/deepcell-tf) - [Python] - Deep learning library for single cell analysis
 - [Bo Wang's method](https://www.nature.com/articles/s41592-024-02233-6#Fig3) - [Python] - Better than SOTA segmentation (Nature Methods 2024)
-- [Proseg](https://www.biorxiv.org/content/10.1101/2024.04.25.591218v1.full.pdf) - [Rust] - Probabilistic segmentation method
+- [Proseg](https://github.com/dcjones/proseg) - [Rust] - Probabilistic segmentation method
 - [ComSeg](https://github.com/fish-quant/ComSeg) - [Python] - Transcript-based point cloud segmentation
-- [FICTURE](https://www.nature.com/articles/s41592-024-02415-2) - [Python] - Feature-based image segmentation
+- [FICTURE](https://github.com/seqscope/ficture) - [Python] - Feature-based image segmentation
 - [Xenium cell boundary](https://kb.10xgenomics.com/hc/en-us/articles/30205122555917-Boundary-stain-shows-cell-morphology-better-than-the-interior-stain) - [Web] - Alternative when interior staining fails
 - [Bioimage.io](https://bioimage.io/#/) - [Web] - Repository of AI models for segmentation
-- [ST-cellseg](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012254) - [Python] - Segmentation for spatial transcriptomics
+- [ST-cellseg](https://github.com/xjtulyc/ST-Cellseg) - [Python] - Segmentation for spatial transcriptomics
 - [CelloType](https://github.com/maxpmx/CelloType) - [Python] - Cell type detection and segmentation
-- [SAINSC](https://onlinelibrary.wiley.com/doi/10.1002/smtd.202401123) - [Python] - Segmentation for sequencing-based spatial data
+- [SAINSC](https://github.com/HiDiHlabs/sainsc) - [Python] - Segmentation for sequencing-based spatial data
 - [BIDCell](https://github.com/SydneyBioX/BIDCell) - [Python] - Biologically-informed deep learning for subcellular spatial transcriptomics segmentation
 - [FastReseg](https://github.com/Nanostring-Biostats/FastReseg) - [R] - Using transcript locations to refine image-based cell segmentation results
-- [Segger](https://www.biorxiv.org/content/10.1101/2025.03.14.643160v1) - [Python] - Fast and accurate cell segmentation of imaging-based spatial transcriptomics data
-- [Bering](https://doi.org/10.1038/s41467-025-60898-9) - [Python] - Graph deep learning for joint noise-aware cell segmentation and molecular annotation in 2D and 3D spatial transcriptomics
-- [STP](https://doi.org/10.1038/s41467-025-59782-3) - [Python] - Single-cell Partition for subcellular spatially-resolved transcriptomics integrating data with nuclei-stained images
+- [Segger](https://github.com/dpeerlab/segger) - [Python] - Fast and accurate cell segmentation of imaging-based spatial transcriptomics data
+- [Bering](https://github.com/jian-shu-lab/Bering) - [Python] - Graph deep learning for joint noise-aware cell segmentation and molecular annotation in 2D and 3D spatial transcriptomics
+- [STP](https://github.com/leihouyeung/STP) - [Python] - Single-cell Partition for subcellular spatially-resolved transcriptomics integrating data with nuclei-stained images
 - [Deep learning-based segmentation](https://doi.org/10.1126/sciadv.adw4871) - [Python] - Extensively trained nuclear and membrane segmentation models for precise transcript assignment in CosMx SMI data
 - [CellSAM](https://github.com/vanvalenlab/cellSAM) - [Python] - Foundation model for cell segmentation achieving state-of-the-art performance across cellular targets (bacteria, tissue, yeast, cell culture) and imaging modalities (brightfield, fluorescence, phase, multiplexed) | [Paper](https://www.nature.com/articles/s41592-025-02879-w) | [Web App](https://cellsam.deepcell.org)
 
@@ -139,33 +139,32 @@
 
 #### VisiumHD Segmentation
 
-- [Bin2Cell](https://www.biorxiv.org/content/10.1101/2024.06.19.599766v1) - [Python] - Segmentation for VisiumHD data
-- [ENACT](https://www.biorxiv.org/content/10.1101/2024.10.17.618905v1.full.pdf) - [Python] - Enhanced accuracy for VisiumHD segmentation
-- [STHD](https://www.biorxiv.org/content/10.1101/2024.06.20.599803v2) - [Python] - Cell annotation for VisiumHD
+- [Bin2Cell](https://github.com/Teichlab/bin2cell) - [Python] - Segmentation for VisiumHD data
+- [ENACT](https://github.com/Sanofi-Public/enact-pipeline) - [Python] - Enhanced accuracy for VisiumHD segmentation
+- [STHD](https://github.com/yi-zhang/STHD) - [Python] - Cell annotation for VisiumHD
 
 ### Cell Annotation
 
 - [STEM](https://www.nature.com/articles/s42003-023-05640-1) - [R] - Cell type annotation method
-- [TACIT](https://www.biorxiv.org/content/10.1101/2024.05.31.596861v1) - [Python] - Automated cell type identification
+- [TACIT](https://github.com/huynhkl953/TACIT) - [Python] - Automated cell type identification
 - [moscot](https://github.com/theislab/moscot) - [Python] - Optimal transport-based cell mapping
-- [RCTD](https://github.com/dmcable/spacexr) - [R] - Cell type annotation from reference data
 - [Annotability](https://www.nature.com/articles/s43588-024-00721-5#Fig2) - [Python] - Assessment of cell annotation quality
-- [CELLama](https://www.biorxiv.org/content/10.1101/2024.05.08.593094v1.full) - [Python] - Cell annotation model
-- [TACCO](https://www.nature.com/articles/s41587-023-01657-3) - [Python] - Transfer of annotations between single-cell datasets
+- [CELLama](https://github.com/portrai-io/CELLama) - [Python] - Cell annotation model
+- [TACCO](https://github.com/simonwm/tacco) - [Python] - Transfer of annotations between single-cell datasets
 - [TANGRAM](https://github.com/broadinstitute/Tangram) - [Python] - Mapping single-cell to spatial data
-- [MMoCHi](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00328-X) - [Python] - Cell annotation method
-- [CytoSPACE](https://www.nature.com/articles/s41587-023-01697-9) - [Python] - High-resolution alignment of single-cell and spatial transcriptomes
+- [MMoCHi](https://github.com/donnafarberlab/MMoCHi) - [Python] - Cell annotation method
+- [CytoSPACE](https://github.com/digitalcytometry/cytospace) - [Python] - High-resolution alignment of single-cell and spatial transcriptomes
 - [ABCT](https://github.com/ercsb-sp/ABCT) - [R] - Anchor-based Cell Typer
-- [STHD](https://www.biorxiv.org/content/10.1101/2024.06.20.599803v2) - [Python] - Cell annotation for VisiumHD
-- [STELLAR](https://www.nature.com/articles/s41592-022-01651-8) - [Python] - Annotation of spatially resolved single-cell data with STELLAR
-- [Vesalius](https://www.nature.com/articles/s41467-025-62782-y#Fig2) - [R] - Multi-scale and multi-context interpretable mapping of cell states across heterogeneous spatial samples
-- [STALocator](https://doi.org/S2405-4712(25)00028-6) - [Python] - ST-Aided Locator using deep learning to localize cells from single-cell RNA-seq data onto tissue slices
-- [CMAP](https://doi.org/10.1038/s41467-025-61667-4) - [Python] - Cellular Mapping of Attributes with Position, maps large-scale individual cells to precise spatial locations using divide-and-conquer strategy
+- [STHD](https://github.com/yi-zhang/STHD) - [Python] - Cell annotation for VisiumHD
+- [STELLAR](https://github.com/snap-stanford/stellar) - [Python] - Annotation of spatially resolved single-cell data with STELLAR
+- [Vesalius](https://github.com/WonLab-CS/Vesalius) - [R] - Multi-scale and multi-context interpretable mapping of cell states across heterogeneous spatial samples
+- [STALocator](https://github.com/zhanglabtools/STALocator) - [Python] - ST-Aided Locator using deep learning to localize cells from single-cell RNA-seq data onto tissue slices
+- [CMAP](https://github.com/SuoLab-GZLab/CMAP) - [Python] - Cellular Mapping of Attributes with Position, maps large-scale individual cells to precise spatial locations using divide-and-conquer strategy
 - [TransST](https://doi.org/10.1186/s12859-025-06099-z) - [Python] - Transfer learning framework leveraging cell-labeled information from external sources for cell-level heterogeneity inference | [GitHub](https://github.com/shuoshuoliu/TransST)
 - [InSituType](https://github.com/Nanostring-Biostats/InSituType) - [R] - Cell typing for CosMx SMI spatial transcriptomics
 - [HieraType](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/tree/Main/_code/HieraType) - [R] - Hierarchical cell typing using RNA + protein for CosMx SMI
 - [CosMx-Cell-Profiles](https://github.com/Nanostring-Biostats/CosMx-Cell-Profiles) - [R] - Collection of reference datasets for CosMx SMI
-- [GARDEN](https://www.nature.com/articles/s41467-026-68500-6) - [Python] - Graph-based dynamic attention framework for identifying rare pathogenic cell populations (disease-driving cells often missed by standard methods), enables 3D tissue reconstruction
+- [GARDEN](https://github.com/rare-pathogenic-cells/GARDEN) - [Python] - Graph-based dynamic attention framework for identifying rare pathogenic cell populations (disease-driving cells often missed by standard methods), enables 3D tissue reconstruction
 
 ### Cell Deconvolution
 
@@ -186,89 +185,89 @@
 
 ### Spatially Variable Genes
 
-- [PROST](https://www.nature.com/articles/s41467-024-44835-w) - [Python] - Detection of spatially variable genes
+- [PROST](https://github.com/Tang-Lab-super/PROST) - [Python] - Detection of spatially variable genes
 - [SpatialDE](https://github.com/Teichlab/SpatialDE) - [Python] - Spatial differential expression analysis
-- [SPARK-X](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02404-0#Fig1) - [R] - Detection of spatially variable genes, best performing
+- [SPARK-X](https://github.com/xzhoulab/SPARK) - [R] - Detection of spatially variable genes, best performing
 - [Hotspot](https://github.com/YosefLab/Hotspot) - [Python] - Identify informative gene modules with lowest false positive rate
 - [SOMDE](https://github.com/XuegongLab/somde) - [Python] - Self-organizing map for spatially variable gene detection with optimization
 - [trendsceek](https://github.com/edsgard/trendsceek) - [R] - Identification of spatial expression trends
-- [nnSVG](https://www.biorxiv.org/content/10.1101/2022.05.16.492124v1) - [R] - Scalable identification of spatially variable genes using nearest-neighbor Gaussian processes
+- [nnSVG](https://github.com/lmweber/nnSVG) - [R] - Scalable identification of spatially variable genes using nearest-neighbor Gaussian processes
 - [SLOPER](https://github.com/chitra-lab/SLOPER) - [Python] - Score-based learning of Poisson-modeled expression rates for spatial gene modules and tissue organization patterns
 
 ### Integration
 
-- [PRECAST](https://www.nature.com/articles/s41467-023-35947-w) - [R] - Probabilistic embedding, clustering, and alignment for integrating spatial transcriptomics data
-- [MISO](https://doi.org/10.1038/s41592-024-02574-2) - [Python] - MultI-modal Spatial Omics for versatile feature extraction and clustering integrating multiple modalities including gene expression, protein, epigenetics, metabolomics, and histology
-- [SIMO](https://doi.org/10.1038/s41467-025-56523-4) - [Python] - Spatial Integration of Multi-Omics through probabilistic alignment integrating spatial transcriptomics with multiple single-cell modalities
+- [PRECAST](https://github.com/feiyoung/PRECAST) - [R] - Probabilistic embedding, clustering, and alignment for integrating spatial transcriptomics data
+- [MISO](https://github.com/kpcoleman/miso) - [Python] - MultI-modal Spatial Omics for versatile feature extraction and clustering integrating multiple modalities including gene expression, protein, epigenetics, metabolomics, and histology
+- [SIMO](https://github.com/ZJUFanLab/SIMO) - [Python] - Spatial Integration of Multi-Omics through probabilistic alignment integrating spatial transcriptomics with multiple single-cell modalities
 - [GSI](https://doi.org/10.1093/bioinformatics/btaf350) - [Python] - Gene Spatial Integration using deep learning with representation learning to extract spatial distribution of genes | [GitHub](https://github.com/Riandanis/Spatial_Integration_GSI) | [Zenodo](https://doi.org/10.5281/zenodo.15165223)
 - [SPACE-seq](https://doi.org/10.1073/pnas.2424070122) - [Paper] - Unified molecular approach for spatial multiomics enabling simultaneous analysis of chromatin accessibility, mitochondrial DNA mutations, and gene expression on standard 10× Genomics Visium CytAssist platform
-- [LLOKI](https://www.biorxiv.org/content/10.1101/2025.03.31.646238v2) - [Python] - Cross-platform spatial transcriptomics integration using optimal transport and scGPT foundation models for unified features across different gene panels (RECOMB 2025)
+- [LLOKI](https://github.com/elliehaber07/LLOKI) - [Python] - Cross-platform spatial transcriptomics integration using optimal transport and scGPT foundation models for unified features across different gene panels (RECOMB 2025)
 
 ### Cell Niches & Tissue Domains
 
 > (**Smaller**) Cell types → Cell modules/neighborhoods → Niches/tissue domains (**Larger**)
 
-- [BANKSY](https://www.nature.com/articles/s41588-024-01664-3) - [R/Python] - Unified cell typing and tissue domain segmentation
-- [CellCharter](https://www.nature.com/articles/s41588-023-01588-4) - [Python] - Hierarchical niche detection
-- [SpatialGLUE](https://www.nature.com/articles/s41592-024-02316-4) - [Python] - Multi-omics cell niche identification
+- [BANKSY](https://github.com/prabhakarlab/Banksy) - [R/Python] - Unified cell typing and tissue domain segmentation
+- [CellCharter](https://github.com/CSOgroup/cellcharter) - [Python] - Hierarchical niche detection
+- [SpatialGLUE](https://github.com/JinmiaoChenLab/SpatialGlue) - [Python] - Multi-omics cell niche identification
 - [smoothclust](https://github.com/lmweber/smoothclust) - [R] - Spatial clustering
-- [SpaTopic](https://www.science.org/doi/10.1126/sciadv.adp4942) - [R] - Spatial topic modeling
+- [SpaTopic](https://github.com/compbioNJU/SpaTopic) - [R] - Spatial topic modeling
 - [hdWGCNA](https://smorabit.github.io/hdWGCNA/articles/ST_basics.html) - [R] - Weighted gene correlation network analysis
 - [GASTON](https://github.com/raphael-group/GASTON) - [Python] - Graph-based spatial domain detection
 - [SpatialMNN](https://github.com/Pixel-Dream/spatialMNN) - [R] - Identification of shared niches between slides
 - [NicheCompass](https://github.com/Lotfollahi-lab/nichecompass) - [Python] - End-to-end analysis of spatial multi-omics data
-- [Proust](https://genome.cshlp.org/content/35/7/1621) - [Python] - Spatial domain detection using contrastive self-supervised learning for spatial multi-omics technologies (multi-modal domains)
-- [STAMP](https://doi.org/10.1038/s41592-024-02463-8) - [Python] - Spatial Transcriptomics Analysis with topic Modeling, provides interpretable dimension reduction through deep generative modeling discovering tissue domains and cellular communication patterns
+- [Proust](https://github.com/JianingYao/proust_paper) - [Python] - Spatial domain detection using contrastive self-supervised learning for spatial multi-omics technologies (multi-modal domains)
+- [STAMP](https://github.com/JinmiaoChenLab/scTM) - [Python] - Spatial Transcriptomics Analysis with topic Modeling, provides interpretable dimension reduction through deep generative modeling discovering tissue domains and cellular communication patterns
 - [DeepGFT](https://doi.org/10.1186/s13059-025-03631-5) - [Python] - Combines deep learning with graph Fourier transform for spatial domain identification | [GitHub](https://github.com/jxLiu-bio/DeepGFT) | [Zenodo](https://doi.org/10.5281/zenodo.15073243)
 - [novae](https://github.com/MICS-Lab/novae) - [Python] - Deep learning framework for spatial domain detection and tissue organization analysis
 
 ### Cell Distances & Neighborhood
 
 - [CRAWDAD](https://github.com/JEFworks-Lab/CRAWDAD) - [R] - Cell relationship analysis with directional adjacency distributions
-- [HoodscanR](https://www.biorxiv.org/content/10.1101/2024.03.26.586902v1) - [R] - Neighborhood analysis
+- [HoodscanR](https://github.com/DavisLaboratory/hoodscanR) - [R] - Neighborhood analysis
 - [SpicyR](https://sydneybiox.github.io/spicyR/) - [R] - Spatial analysis in R
-- [MISTy](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02663-5) - [R] - Explainable multiview framework for dissecting spatial relationships from highly multiplexed data
-- [SpatialCorr](https://www.biorxiv.org/content/10.1101/2022.02.04.479191v1.full) - [Python] - Identifying gene sets with spatially varying correlation structure
+- [MISTy](https://github.com/saezlab/mistyR) - [R] - Explainable multiview framework for dissecting spatial relationships from highly multiplexed data
+- [SpatialCorr](https://github.com/mbernste/SpatialCorr) - [Python] - Identifying gene sets with spatially varying correlation structure
 - [CatsCradle](https://github.com/AnnaLaddach/CatsCradle) - [R] - Spatial analysis framework for tissue neighbourhoods
 
 ### Spatial Trajectories
 
-- [spaTrack](https://www.biorxiv.org/content/10.1101/2023.09.04.556175v2) - [Python] - Spatial trajectory analysis
-- [scSpace](https://www.biorxiv.org/content/10.1101/2022.05.07.491043v1) - [Python] - Reconstruction of cell pseudo-space from single-cell RNA sequencing data
-- [SOCS](https://www.biorxiv.org/content/10.1101/2025.03.19.644194v1.full.pdf) - [Python] - Accurate trajectory inference in time-series spatial transcriptomics with structurally-constrained optimal transport
-- [STORIES](https://doi.org/10.1038/s41592-025-02855-4) - [Python] - Spatiotemporal Reconstruction Using Optimal Transport for cell trajectory inference from spatial transcriptomics profiled at multiple time points
+- [spaTrack](https://github.com/yzf072/spaTrack) - [Python] - Spatial trajectory analysis
+- [scSpace](https://github.com/ZJUFanLab/scSpace) - [Python] - Reconstruction of cell pseudo-space from single-cell RNA sequencing data
+- [SOCS](https://github.com/algo-bio-lab/SOCS) - [Python] - Accurate trajectory inference in time-series spatial transcriptomics with structurally-constrained optimal transport
+- [STORIES](https://github.com/cantinilab/stories) - [Python] - Spatiotemporal Reconstruction Using Optimal Transport for cell trajectory inference from spatial transcriptomics profiled at multiple time points
 
 ### Cell-Cell Communication
 
-- [Spatia](https://www.nature.com/articles/s41592-024-02408-1#Fig2) - [Python] - Spatial cell-cell interaction analysis
+- [Spatia](https://github.com/yunguan-wang/Spacia) - [Python] - Spatial cell-cell interaction analysis
 - [CellAgentChat](https://github.com/mcgilldinglab/CellAgentChat) - [Python] - Agent-based cell communication modeling
 - [SpaTalk](https://github.com/ZJUFanLab/SpaTalk) - [R] - Knowledge-graph-based cell-cell communication inference
 - [SpaOTsc](https://github.com/zcang/SpaOTsc) - [Python] - Inferring spatial and signaling relationships between cells
 - [MISTy](https://github.com/saezlab/mistyR) - [R] - Explainable multi-view framework for dissecting intercellular signaling
-- [DeepLinc](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02692-0) - [Python] - De novo reconstruction of cell interaction landscapes
+- [DeepLinc](https://github.com/xryanglab/DeepLinc) - [Python] - De novo reconstruction of cell interaction landscapes
 - [CellChat](https://github.com/jinworks/CellChat?tab=readme-ov-file) - [R] - Inferrence of cell-cell communication from multiple spatially resolved transcriptomics datasets
 - [COMMOT](https://github.com/zcang/COMMOT) - [Python] - Screening cell-cell communication in spatial transcriptomics via collective optimal transport
 - [NicheNet](https://github.com/saeyslab/nichenetr) - [R] - Linking ligands to downstream target gene regulation
 - [DeepTalk](https://github.com/JiangBioLab/DeepTalk) - [Python] - Single-cell resolution cell-cell communication using deep learning
 - [CellNEST](https://github.com/schwartzlab-methods/CellNEST) - [Python] - Cell–cell relay networks using attention mechanisms on spatial transcriptomics
-- [FlowSig](https://www.nature.com/articles/s41592-024-02380-w) - [Python] - Inferring pattern-driving intercellular flows from single-cell and spatial transcriptomics
+- [FlowSig](https://github.com/axelalmet/flowsig) - [Python] - Inferring pattern-driving intercellular flows from single-cell and spatial transcriptomics
 
 ### Metacells & Scalability
 
 - [MetaSpot](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btae734/7919601) - [R] - Metacell analysis for spatial data
-- [SEraster](https://jef.works/blog/2024/07/23/spatial-bootstrapping-with-seraster/) - [R] - Rasterization method for spatial data processing
+- [SEraster](https://github.com/JEFworks-Lab/SEraster) - [R] - Rasterization method for spatial data processing
 
 ### Subcellular Analysis
 
-- [Sprawl](https://elifesciences.org/articles/87517) - [Python] - Subcellular transcript localization
+- [Sprawl](https://github.com/salzman-lab/SPRAWL) - [Python] - Subcellular transcript localization
 - [Bento](https://github.com/YeoLab/bento-tools) - [Python] - Python toolkit for subcellular analysis of spatial transcriptomics data
-- [FISHfactor](https://academic.oup.com/bioinformatics/article/39/5/btad183/7114027) - [Python] - Analysis of subcellular transcript patterns
-- [InSTAnT](https://www.nature.com/articles/s41467-024-49457-w) - [Python] - Intracellular spatial transcript analysis
+- [FISHfactor](https://github.com/bioFAM/FISHFactor) - [Python] - Analysis of subcellular transcript patterns
+- [InSTAnT](https://github.com/bhavaygg/InSTAnT) - [Python] - Intracellular spatial transcript analysis
 - [troutpy](https://github.com/theislab/troutpy) - [Python] - Analysis of transcripts outside segmented cells in spatial transcriptomics data
 
 ### Copy Number Variations
 
-- [CalicoST](https://www.nature.com/articles/s41592-024-02438-9#Fig1) - [Python] - CNV detection in spatial data
+- [CalicoST](https://github.com/raphael-group/CalicoST) - [Python] - CNV detection in spatial data
 - [inSituCNV](https://github.com/Moldia/InSituCNV) - [Python] - Inference of Copy Number Variations in Image-Based Spatial Transcriptomics
 
 ### Isoform Analysis
@@ -277,33 +276,33 @@
 
 ### Transcription Factors & Gene Regulatory Networks
 
-- [STAN](https://www.biorxiv.org/content/10.1101/2024.06.26.600782v2.full.pdf) - [R] - Spatial transcription factor analysis
+- [STAN](https://github.com/osmanbeyoglulab/STAN) - [R] - Spatial transcription factor analysis
 
 ## Technical Enhancements
 
 ### Slide Alignment
 
-- [PASTE](https://www.nature.com/articles/s41592-022-01459-6)/[PASTE2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9881963/) - [Python] - Probabilistic alignment of spatial transcriptomics experiments
-- [SPIRAL](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03078-6#Fig2) - [R] - Integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies
-- [TOAST](https://www.biorxiv.org/content/10.1101/2025.04.15.648894v1.full.pdf) - [Python] - Topography Aware Optimal Transport for Alignment of Spatial Omics Data
+- [PASTE](https://github.com/raphael-group/paste)/[PASTE2](https://github.com/raphael-group/paste2) - [Python] - Probabilistic alignment of spatial transcriptomics experiments
+- [SPIRAL](https://github.com/guott15/SPIRAL) - [R] - Integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies
+- [TOAST](https://github.com/cecca46/TOAST) - [Python] - Topography Aware Optimal Transport for Alignment of Spatial Omics Data
 - [STalign](https://jef.works/STalign/notebooks/xenium-xenium-alignment.html) - [Python] - Alignment of spatial transcriptomics data using diffeomorphic metric mapping
-- [SANTO](https://pmc.ncbi.nlm.nih.gov/articles/PMC11258319/pdf/41467_2024_Article_50308.pdf) - [Python] - A coarse-to-fine alignment and stitching method for spatial omics
+- [SANTO](https://github.com/leihouyeung/SANTO) - [Python] - A coarse-to-fine alignment and stitching method for spatial omics
 
 ### Super Resolution
 
-- [TESLA](https://www.cell.com/cell-systems/pdf/S2405-4712(23)00084-4.pdf) - [Python] - Super resolution for 10X Visium
+- [TESLA](https://github.com/jianhuupenn/TESLA) - [Python] - Super resolution for 10X Visium
 - [istar](https://github.com/daviddaiweizhang/istar) - [Python] - Super resolution for Visium
-- [BayesSPACE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8763026/) - [R] - Subspot resolution
-- [Spotiphy](https://www.nature.com/articles/s41592-025-02622-5) - [Python] - Super resolution tool for spatial data
+- [BayesSPACE](https://github.com/edward130603/BayesSpace) - [R] - Subspot resolution
+- [Spotiphy](https://github.com/jyyulab/Spotiphy) - [Python] - Super resolution tool for spatial data
 
 ### Transcripts + Histology
 
 - [ST-Net](https://github.com/bryanhe/ST-Net) - [Python] - Integrating spatial gene expression and tumor morphology via deep learning
-- [SpaceDIVA](https://www.biorxiv.org/content/10.1101/2025.02.19.638201v1.full.pdf) - [Python] - Integration of transcript data with histological images
+- [SpaceDIVA](https://github.com/hsmaan/SpatialDIVA) - [Python] - Integration of transcript data with histological images
 - [HEST](https://github.com/mahmoodlab/HEST) - [Python] - Dataset for Spatial Transcriptomics and Histology Image Analysis
 - [CellLENS](https://github.com/sggao/celllens/) - [Python] - Cell Local Environment Neighborhood Scan
-- [DeepSpot](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v2.full.pdf) - [Python] - Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images
-- [SpotWhisperer](https://medical-epigenomics.org/papers/spotwhisperer/#citation) - [Python] - Molecularly informed analysis of histopathology images using natural language
+- [DeepSpot](https://github.com/ratschlab/he2st) - [Python] - Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images
+- [SpotWhisperer](https://github.com/BockLab/cellxgene) - [Python] - Molecularly informed analysis of histopathology images using natural language
 - [STPath](https://github.com/Graph-and-Geometric-Learning/STPath) - [Python] - A Generative Foundation Model for Integrating Spatial Transcriptomics and Whole Slide Images
 - [AESTETIK](https://github.com/ratschlab/aestetik) - [Python] - AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge
 
@@ -333,17 +332,17 @@
 ### Foundation Models
 
 - [KRONOS](https://github.com/mahmoodlab/KRONOS) - [Python] - Foundation Model for Multiplex Spatial Proteomic Images
-- [scGPT-spatial](https://www.biorxiv.org/content/10.1101/2025.02.05.636714v1.full.pdf) - [Python] - Language model for spatial transcriptomics
+- [scGPT-spatial](https://github.com/bowang-lab/scGPT-spatial) - [Python] - Language model for spatial transcriptomics
 - [Phikon-v2](https://huggingface.co/owkin/phikon-v2) - [Python] - Spatial biology foundation model
 - [Bioptimus H-optimus-0](https://huggingface.co/bioptimus/H-optimus-0) - [Python] - Biology-focused foundation model
 - [Bioptimus H-optimus-1](https://www.bioptimus.com/news/bioptimus-launches-h-optimus-1) - [Python] - Latest biology-focused foundation model from Bioptimus
 - [DeepCell dataset](https://exploredata.deepcell.com/cell-visualizations/9/versions/1) - [Web] - CNN + human features embeddings
-- [TITAN](https://www.nature.com/articles/s41591-025-03982-3) - [Python] - A multimodal whole-slide foundation model for pathology
+- [TITAN](https://github.com/mahmoodlab/TITAN) - [Python] - A multimodal whole-slide foundation model for pathology
 - [Virchow](https://huggingface.co/paige-ai/Virchow) - [Python] - Foundation model for computational pathology
 - [UNI](https://github.com/mahmoodlab/UNI) and [UNI2](https://huggingface.co/MahmoodLab/UNI2-h) - [Python] - Universal pathology foundation models
 - [CONCH](https://github.com/mahmoodlab/CONCH) - [Python] - Contrastive learning for histopathology
 - [GIGApath](https://github.com/prov-gigapath/prov-gigapath) - [Python] - Large-scale pathology foundation model
-- [OmiCLIP](https://www.nature.com/articles/s41592-025-02707-1) - [Python] - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
+- [OmiCLIP](https://github.com/GuangyuWangLab2021/Loki) - [Python] - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
 - [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - [Python] - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer-data/)
-- [FOCUS](https://www.biorxiv.org/content/10.64898/2025.12.23.696267v2) - [Python] - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
-- [Atlas 2](https://arxiv.org/pdf/2601.05148) - [Python] - Foundation models for clinical deployment
+- [FOCUS](https://github.com/LHY1007/FOCUS) - [Python] - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
+- [Atlas 2](https://github.com/cellur-m/pathology_atlas) - [Python] - Foundation models for clinical deployment
