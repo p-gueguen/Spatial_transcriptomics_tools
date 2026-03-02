@@ -163,7 +163,7 @@
 - [InSituType](https://github.com/Nanostring-Biostats/InSituType) - [R] - Cell typing for CosMx SMI spatial transcriptomics
 - [HieraType](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/tree/Main/_code/HieraType) - [R] - Hierarchical cell typing using RNA + protein for CosMx SMI
 - [CosMx-Cell-Profiles](https://github.com/Nanostring-Biostats/CosMx-Cell-Profiles) - [R] - Collection of reference datasets for CosMx SMI
-- [GARDEN](https://github.com/rare-pathogenic-cells/GARDEN) - [Python] - Graph-based dynamic attention framework for identifying rare pathogenic cell populations (disease-driving cells often missed by standard methods), enables 3D tissue reconstruction
+- [GARDEN](https://github.com/Briskzxm/GARDEN) - [Python] - Graph-based dynamic attention framework for identifying rare pathogenic cell populations (disease-driving cells often missed by standard methods), enables 3D tissue reconstruction
 
 ### Cell Deconvolution
 
