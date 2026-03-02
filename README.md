@@ -145,10 +145,9 @@
 
 ### Cell Annotation
 
-- [STEM](https://www.nature.com/articles/s42003-023-05640-1) - [R] - Cell type annotation method
+- [STEM](https://github.com/WhirlFirst/STEM) - [Python] - Cell type annotation method
 - [TACIT](https://github.com/huynhkl953/TACIT) - [Python] - Automated cell type identification
 - [moscot](https://github.com/theislab/moscot) - [Python] - Optimal transport-based cell mapping
-- [Annotability](https://www.nature.com/articles/s43588-024-00721-5#Fig2) - [Python] - Assessment of cell annotation quality
 - [CELLama](https://github.com/portrai-io/CELLama) - [Python] - Cell annotation model
 - [TACCO](https://github.com/simonwm/tacco) - [Python] - Transfer of annotations between single-cell datasets
 - [TANGRAM](https://github.com/broadinstitute/Tangram) - [Python] - Mapping single-cell to spatial data
