@@ -39,6 +39,8 @@
 ## General Tools
 
 - [Best practices Bioconductor](https://lmweber.org/OSTA/) - Principles for statistical analysis of spatial transcriptomics data
+- CellCNN - [Python] - Representation Learning for detection of phenotype-associated cell subsets
+- CellRanger - [Linux Binary] - Cell Ranger is a set of analysis pipelines that process Chromium single-cell RNA-seq output to align reads, generate gene-cell matrices and perform clustering and gene expression analysis.
 - [squidpy](https://squidpy.readthedocs.io/en/stable/) - Spatial single cell analysis toolkit from scverse
 - [Giotto](https://giottosuite.readthedocs.io/en/latest/) - Comprehensive spatial data analysis suite
 - [Vitessce](http://vitessce.io/) - Visual integration tool for exploration of spatial single cell experiments
