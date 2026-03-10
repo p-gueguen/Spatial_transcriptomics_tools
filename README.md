@@ -225,7 +225,6 @@
 - [Proust](https://github.com/JianingYao/proust_paper) - [Python] - Spatial domain detection using contrastive self-supervised learning for spatial multi-omics technologies (multi-modal domains)
 - [STAMP](https://github.com/JinmiaoChenLab/scTM) - [Python] - Spatial Transcriptomics Analysis with topic Modeling, provides interpretable dimension reduction through deep generative modeling discovering tissue domains and cellular communication patterns
 - [DeepGFT](https://doi.org/10.1186/s13059-025-03631-5) - [Python] - Combines deep learning with graph Fourier transform for spatial domain identification | [GitHub](https://github.com/jxLiu-bio/DeepGFT) | [Zenodo](https://doi.org/10.5281/zenodo.15073243)
-- [novae](https://github.com/MICS-Lab/novae) - [Python] - Deep learning framework for spatial domain detection and tissue organization analysis
 
 ### Cell Distances & Neighborhood
 
@@ -343,13 +342,24 @@
 
 ### Foundation Models
 
-- [KRONOS](https://github.com/mahmoodlab/KRONOS) - [Python] - Foundation Model for Multiplex Spatial Proteomic Images
+#### Expression-Centric (Transcriptomics)
+
+- [novae](https://github.com/MICS-Lab/novae) - [Python] - Deep learning foundation model for spatial domain assignments and tissue organization analysis | [Paper](https://doi.org/10.1038/s41592-025-02899-6) | [Docs](https://mics-lab.github.io/novae/)
 - [scGPT-spatial](https://github.com/bowang-lab/scGPT-spatial) - [Python] - Spatial-omic foundation model pretrained on 30M spatial profiles (SpatialHuman30M) across 821 slides
-- [Phikon-v2](https://huggingface.co/owkin/phikon-v2) - [Python] - Spatial biology foundation model
-- [Bioptimus H-optimus-0](https://huggingface.co/bioptimus/H-optimus-0) - [Python] - Biology-focused foundation model
-- [Bioptimus H-optimus-1](https://www.bioptimus.com/news/bioptimus-launches-h-optimus-1) - [Python] - Latest biology-focused foundation model from Bioptimus
-- [DeepCell dataset](https://exploredata.deepcell.com/cell-visualizations/9/versions/1) - [Web] - CNN + human features embeddings
+- [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - [Python] - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer)
+- [stFormer](https://github.com/csh3/stFormer) - [Python] - Foundation model generating contextual gene representations within spatial niches with ligand–receptor aware attention
+
+#### Visual-Omics & Multimodal (H&E + ST)
+
+- [Loki / OmiCLIP](https://github.com/GuangyuWangLab2021/Loki) - [Python] - Visual–omics foundation model and platform bridging H&E with ST | [Docs](https://guangyuwanglab2021.github.io/Loki/)
+- [SpaFoundation](https://github.com/NingZhangCSUBio/SpaFoundation) - [Python] - Visual foundation model for spatial transcriptomics using histology images alone for gene expression inference and super-resolution
+- [ST-Align](https://github.com/dumbgoos/ST-Align) - [Python] - Multimodal foundation model for image–gene alignment in spatial transcriptomics
+- [spEMO](https://github.com/HelloWorldLTY/spEMO) - [Python] - Framework unifying embeddings from pathology foundation models and LLMs for spatial multi-omic analysis
+- [FOCUS](https://github.com/LHY1007/FOCUS) - [Python] - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
 - [TITAN](https://github.com/mahmoodlab/TITAN) - [Python] - A multimodal whole-slide foundation model for pathology
+
+#### Pathology & Histology
+
 - [Virchow](https://huggingface.co/paige-ai/Virchow) - [Python] - Foundation model for computational pathology
 - [UNI](https://github.com/mahmoodlab/UNI) and [UNI2](https://huggingface.co/MahmoodLab/UNI2-h) - [Python] - Universal pathology foundation models (Mahmood Lab)
 - [UNI (KatherLab)](https://github.com/KatherLab/uni) - [Python] - General-purpose self-supervised pathology foundation model
@@ -357,11 +367,11 @@
 - [CONCH](https://github.com/mahmoodlab/CONCH) - [Python] - Contrastive learning for histopathology
 - [GIGApath](https://github.com/prov-gigapath/prov-gigapath) - [Python] - Large-scale pathology foundation model
 - [CHIEF](https://github.com/hms-dbmi/CHIEF) - [Python] - Clinical Histopathology Imaging Evaluation Foundation Model for cancer detection and prognosis
-- [Loki / OmiCLIP](https://github.com/GuangyuWangLab2021/Loki) - [Python] - Visual–omics foundation model and platform bridging H&E with ST | [Docs](https://guangyuwanglab2021.github.io/Loki/)
-- [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - [Python] - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer)
-- [stFormer](https://github.com/csh3/stFormer) - [Python] - Foundation model generating contextual gene representations within spatial niches with ligand–receptor aware attention
-- [SpaFoundation](https://github.com/NingZhangCSUBio/SpaFoundation) - [Python] - Visual foundation model for spatial transcriptomics using histology images alone for gene expression inference and super-resolution
-- [ST-Align](https://github.com/dumbgoos/ST-Align) - [Python] - Multimodal foundation model for image–gene alignment in spatial transcriptomics
-- [spEMO](https://github.com/HelloWorldLTY/spEMO) - [Python] - Framework unifying embeddings from pathology foundation models and LLMs for spatial multi-omic analysis
-- [FOCUS](https://github.com/LHY1007/FOCUS) - [Python] - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
+- [Phikon-v2](https://huggingface.co/owkin/phikon-v2) - [Python] - Spatial biology foundation model
+- [Bioptimus H-optimus-1](https://www.bioptimus.com/news/bioptimus-launches-h-optimus-1) - [Python] - Latest biology-focused foundation model from Bioptimus
 - [Atlas 2](https://github.com/cellur-m/pathology_atlas) - [Python] - Foundation models for clinical deployment
+- [DeepCell dataset](https://exploredata.deepcell.com/cell-visualizations/9/versions/1) - [Web] - CNN + human features embeddings
+
+#### Proteomics
+
+- [KRONOS](https://github.com/mahmoodlab/KRONOS) - [Python] - Foundation Model for Multiplex Spatial Proteomic Images
