@@ -44,7 +44,7 @@
 - [Vitessce](https://github.com/vitessce/vitessce) - [JavaScript] - Visual integration tool for exploration of spatial single cell experiments
 - [Voyager](https://github.com/pachterlab/voyager) - [R] - Spatial transcriptomics visualization from Pachter lab
 - [BASS](https://github.com/zhengli09/BASS) - [R] - Multiple sample analysis
-- [SpaVAE](https://github.com/ttgump/spaVAE) - [Python] - All-purpose tool for dimension reduction, visualization, clustering, batch integration, denoising, differential expression, spatial interpolation, and resolution enhancement
+- [SpaVAE](https://github.com/ttgump/spaVAE) - [Python] - All-purpose tool for dimension reduction, visualization, clustering, batch integration, denoising, differential expression, spatial interpolation, and resolution enhancement | [Implementations](https://github.com/hrlblab/computer_vision_spatial_omics)
 - [sopa](https://github.com/gustaveroussy/sopa) - [Python] - Spatial omics processing and analysis
 - [SpatialAgent](https://github.com/Genentech/SpatialAgent) - [Python] - An autonomous AI agent for spatial biology
 - [ChatSpatial](https://github.com/cafferychen777/ChatSpatial) - [Python] - MCP server enabling spatial transcriptomics analysis via natural language, integrating 60+ methods including SpaGCN, Cell2location, LIANA+, CellRank for Visium, Xenium, MERFISH | [Paper](https://doi.org/10.64898/2026.02.26.708361) | [Docs](https://cafferyang.com/ChatSpatial/) | [PyPI](https://pypi.org/project/chatspatial/)
@@ -54,6 +54,9 @@
 - [semla](https://ludvigla.github.io/semla/index.html) - [R] - Useful tools for Spatially Resolved Transcriptomics data analysis and visualization
 - [sosta](https://github.com/sgunz/sosta) - [Python] - Spatial Omic Structure Analysis
 - [SPATA2](https://themilolab.github.io/SPATA2/index.html) - [R] - Spatial transcriptomics analysis toolkit
+- [spatial-omics-tutorials](https://github.com/pnucolab/spatial-omics-tutorials) - [Python/R] - Tutorials and best-practices for spatial omics data analysis from BIML 2025
+- [MGC-BioSB-Spatial-Omics-Analysis-2025](https://github.com/mahfouzlab/MGC-BioSB-Spatial-Omics-Analysis-2025) - [Python] - Workshop materials for spatial omics analysis
+- [SMINT](https://github.com/JurgenKriel/SMINT) - [Python] - Spatial Multi-Omics Integration Toolkit for transcriptomics and metabolomics | [Docs](https://jurgenkriel.github.io/SMINT/)
 - [Thor](https://github.com/GuangyuWangLab2021/Thor) - [Python] - Comprehensive platform for cell-level analysis with anti-shrinking Markov diffusion and 10 modular tools paired with Mjolnir web interface
 - [VR-Omics](https://doi.org/10.1186/s13059-025-03630-6) - [GUI] - Free platform-agnostic software with end-to-end automated processing of multi-slice spatial transcriptomics data through biologist-friendly GUI | [Windows](https://doi.org/10.6084/m9.figshare.28259834.v3) | [MacOS](https://doi.org/10.6084/m9.figshare.28340495.v4) | [GitHub](https://github.com/Ramialison-Lab/VR-Omics)
 - [CosMx-Analysis-Scratch-Space](https://nanostring-biostats.github.io/CosMx-Analysis-Scratch-Space/) - [R/Python] - Analysis resources and tools for CosMx SMI spatial transcriptomics | [GitHub](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space)
@@ -196,7 +199,10 @@
 ### Integration
 
 - [PRECAST](https://github.com/feiyoung/PRECAST) - [R] - Probabilistic embedding, clustering, and alignment for integrating spatial transcriptomics data
-- [MISO](https://github.com/kpcoleman/miso) - [Python] - MultI-modal Spatial Omics for versatile feature extraction and clustering integrating multiple modalities including gene expression, protein, epigenetics, metabolomics, and histology
+- [MISO](https://github.com/kpcoleman/miso) - [Python] - MultI-modal Spatial Omics for versatile feature extraction and clustering (Coleman Lab)
+- [SpatialMETA](https://github.com/WanluLiuLab/SpatialMETA) - [Python] - Joint analysis of spatial transcriptomics and metabolomics via CVAE | [Docs](https://spatialmeta.readthedocs.io/)
+- [pyWNN](https://github.com/dylkot/pyWNN) - [Python] - Weighted Nearest Neighbors (WNN) implementation for Scanpy
+- [MOFA-FLEX](https://github.com/bioFAM/mofaflex) - [Python] - Factor model framework for integrating omics data with prior knowledge | [Docs](https://mofaflex.readthedocs.io/)
 - [SIMO](https://github.com/ZJUFanLab/SIMO) - [Python] - Spatial Integration of Multi-Omics through probabilistic alignment integrating spatial transcriptomics with multiple single-cell modalities
 - [GSI](https://doi.org/10.1093/bioinformatics/btaf350) - [Python] - Gene Spatial Integration using deep learning with representation learning to extract spatial distribution of genes | [GitHub](https://github.com/Riandanis/Spatial_Integration_GSI) | [Zenodo](https://doi.org/10.5281/zenodo.15165223)
 - [SPACE-seq](https://doi.org/10.1073/pnas.2424070122) - [Paper] - Unified molecular approach for spatial multiomics enabling simultaneous analysis of chromatin accessibility, mitochondrial DNA mutations, and gene expression on standard 10× Genomics Visium CytAssist platform
@@ -213,6 +219,7 @@
 - [SpaTopic](https://github.com/compbioNJU/SpaTopic) - [R] - Spatial topic modeling
 - [hdWGCNA](https://smorabit.github.io/hdWGCNA/articles/ST_basics.html) - [R] - Weighted gene correlation network analysis
 - [GASTON](https://github.com/raphael-group/GASTON) - [Python] - Graph-based spatial domain detection
+- [PAST](https://github.com/lizhen18THU/PAST) - [Python] - Prior-based self-attention method for spatial transcriptomics tissue domain identification
 - [SpatialMNN](https://github.com/Pixel-Dream/spatialMNN) - [R] - Identification of shared niches between slides
 - [NicheCompass](https://github.com/Lotfollahi-lab/nichecompass) - [Python] - End-to-end analysis of spatial multi-omics data
 - [Proust](https://github.com/JianingYao/proust_paper) - [Python] - Spatial domain detection using contrastive self-supervised learning for spatial multi-omics technologies (multi-modal domains)
@@ -284,7 +291,11 @@
 - [PASTE](https://github.com/raphael-group/paste)/[PASTE2](https://github.com/raphael-group/paste2) - [Python] - Probabilistic alignment of spatial transcriptomics experiments
 - [SPIRAL](https://github.com/guott15/SPIRAL) - [R] - Integrating and aligning spatially resolved transcriptomics data across different experiments, conditions, and technologies
 - [TOAST](https://github.com/cecca46/TOAST) - [Python] - Topography Aware Optimal Transport for Alignment of Spatial Omics Data
-- [STalign](https://jef.works/STalign/notebooks/xenium-xenium-alignment.html) - [Python] - Alignment of spatial transcriptomics data using diffeomorphic metric mapping
+- [STalign](https://github.com/JEFworks-Lab/STalign) - [Python] - Alignment of spatial transcriptomics data using diffeomorphic metric mapping (JEFworks Lab)
+- [SPCoral](https://github.com/LiHongCSBLab/SPCoral) - [Python] - Spatial multi-modal alignment and integration
+- [SPOmiAlign](https://github.com/wangyiyuyang/SPOmiAlign) - [Python] - Multi-modal spatial alignment and integration for transcriptomics and metabolomics
+- [MALDI-MSI Overlay](https://github.com/M4i-Imaging-Mass-Spectrometry/MALDI-MSI---Spatial-Transcriptomics-Overlay) - [Python] - Script for co-registration of MALDI-MSI and spatial transcriptomics from One Slide Two Worlds
+- [SpaMTP](https://github.com/GenomicsMachineLearning/SpaMTP) - [R] - Spatial multi-task prediction and alignment
 - [SANTO](https://github.com/leihouyeung/SANTO) - [Python] - A coarse-to-fine alignment and stitching method for spatial omics
 
 ### Super Resolution
@@ -303,6 +314,7 @@
 - [DeepSpot](https://github.com/ratschlab/he2st) - [Python] - Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images
 - [SpotWhisperer](https://github.com/epigen/cellxgene) - [Python] - Molecularly informed analysis of histopathology images using natural language
 - [STPath](https://github.com/Graph-and-Geometric-Learning/STPath) - [Python] - A Generative Foundation Model for Integrating Spatial Transcriptomics and Whole Slide Images
+- [STFlow](https://github.com/Graph-and-Geometric-Learning/STFlow) - [Python] - Scalable generation of spatial transcriptomics from histology images via whole-slide flow matching
 - [AESTETIK](https://github.com/ratschlab/aestetik) - [Python] - AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge
 
 ## Benchmarks
@@ -326,22 +338,30 @@
 
 - [HISSTA](https://github.com/ercsb-sp/HISSTA/tree/v1.0) - [Python/R] - Histopathology spatial transcriptomics dataset
 - [STOmicsDB](https://db.cngb.org/stomics/) - [Web] - Spatial transcriptomics database
+- [STHELAR](https://github.com/MICS-Lab/STHELAR) - [Python] - Multi-tissue dataset linking spatial transcriptomics (Xenium) and histology for cell-type annotation
 - [HistAI Pathology Datahub](https://github.com/histai/datahub) - [Python] - Skills repo / HistAI Whole Slide Image Data Hub
 
 ### Foundation Models
 
 - [KRONOS](https://github.com/mahmoodlab/KRONOS) - [Python] - Foundation Model for Multiplex Spatial Proteomic Images
-- [scGPT-spatial](https://github.com/bowang-lab/scGPT-spatial) - [Python] - Language model for spatial transcriptomics
+- [scGPT-spatial](https://github.com/bowang-lab/scGPT-spatial) - [Python] - Spatial-omic foundation model pretrained on 30M spatial profiles (SpatialHuman30M) across 821 slides
 - [Phikon-v2](https://huggingface.co/owkin/phikon-v2) - [Python] - Spatial biology foundation model
 - [Bioptimus H-optimus-0](https://huggingface.co/bioptimus/H-optimus-0) - [Python] - Biology-focused foundation model
 - [Bioptimus H-optimus-1](https://www.bioptimus.com/news/bioptimus-launches-h-optimus-1) - [Python] - Latest biology-focused foundation model from Bioptimus
 - [DeepCell dataset](https://exploredata.deepcell.com/cell-visualizations/9/versions/1) - [Web] - CNN + human features embeddings
 - [TITAN](https://github.com/mahmoodlab/TITAN) - [Python] - A multimodal whole-slide foundation model for pathology
 - [Virchow](https://huggingface.co/paige-ai/Virchow) - [Python] - Foundation model for computational pathology
-- [UNI](https://github.com/mahmoodlab/UNI) and [UNI2](https://huggingface.co/MahmoodLab/UNI2-h) - [Python] - Universal pathology foundation models
+- [UNI](https://github.com/mahmoodlab/UNI) and [UNI2](https://huggingface.co/MahmoodLab/UNI2-h) - [Python] - Universal pathology foundation models (Mahmood Lab)
+- [UNI (KatherLab)](https://github.com/KatherLab/uni) - [Python] - General-purpose self-supervised pathology foundation model
+- [Google Path Foundation](https://huggingface.co/google/path-foundation) - [Python] - Self-supervised embedding model for H&E histopathology
 - [CONCH](https://github.com/mahmoodlab/CONCH) - [Python] - Contrastive learning for histopathology
 - [GIGApath](https://github.com/prov-gigapath/prov-gigapath) - [Python] - Large-scale pathology foundation model
-- [OmiCLIP](https://github.com/GuangyuWangLab2021/Loki) - [Python] - A visual–omics foundation model to bridge histopathology with spatial transcriptomics
+- [CHIEF](https://github.com/hms-dbmi/CHIEF) - [Python] - Clinical Histopathology Imaging Evaluation Foundation Model for cancer detection and prognosis
+- [Loki / OmiCLIP](https://github.com/GuangyuWangLab2021/Loki) - [Python] - Visual–omics foundation model and platform bridging H&E with ST | [Docs](https://guangyuwanglab2021.github.io/Loki/)
 - [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - [Python] - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer)
+- [stFormer](https://github.com/csh3/stFormer) - [Python] - Foundation model generating contextual gene representations within spatial niches with ligand–receptor aware attention
+- [SpaFoundation](https://github.com/NingZhangCSUBio/SpaFoundation) - [Python] - Visual foundation model for spatial transcriptomics using histology images alone for gene expression inference and super-resolution
+- [ST-Align](https://github.com/dumbgoos/ST-Align) - [Python] - Multimodal foundation model for image–gene alignment in spatial transcriptomics
+- [spEMO](https://github.com/HelloWorldLTY/spEMO) - [Python] - Framework unifying embeddings from pathology foundation models and LLMs for spatial multi-omic analysis
 - [FOCUS](https://github.com/LHY1007/FOCUS) - [Python] - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
 - [Atlas 2](https://github.com/cellur-m/pathology_atlas) - [Python] - Foundation models for clinical deployment
