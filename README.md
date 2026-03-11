@@ -109,6 +109,7 @@
 - [cellAdmix](https://github.com/kharchenkolab/cellAdmix) - [R] - From Kharchenko lab - Evaluating and correcting cell admixtures in imaging-based spatial transcriptomics data.
 - [DenoIST](https://github.com/aaronkwc/DenoIST) - [R] - Denoising Image-based Spatial Transcriptomics data
 - [MisTIC](https://github.com/yunguan-wang/MisTic-Wanglab) - [Python] - A probabilistic model for correcting mis-assigned transcripts due to cell segmentation errors
+- [TRACER](https://github.com/imlong4real/TRACER) - [Python] - Tissue Reconstruction via Associative Clique Extraction and Relation-mapping
 
 ### Cell Segmentation
 
