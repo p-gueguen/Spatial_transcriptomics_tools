@@ -242,6 +242,7 @@
 - [scSpace](https://github.com/ZJUFanLab/scSpace) - [Python] - Reconstruction of cell pseudo-space from single-cell RNA sequencing data
 - [SOCS](https://github.com/algo-bio-lab/SOCS) - [Python] - Accurate trajectory inference in time-series spatial transcriptomics with structurally-constrained optimal transport
 - [STORIES](https://github.com/cantinilab/stories) - [Python] - Spatiotemporal Reconstruction Using Optimal Transport for cell trajectory inference from spatial transcriptomics profiled at multiple time points
+- [ONTrac](https://github.com/gyuanlab/ONTraC) - [Python] - Ordered Niche Trajectory Construction
 
 ### Cell-Cell Communication
 
