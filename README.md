@@ -175,7 +175,7 @@
 - [Cell2location](https://github.com/BayraktarLab/cell2location) - [Python] - Mapping scRNA-seq to spatial data
 - [SPOTlight](https://github.com/MarcElosua/SPOTlight) - [R] - Seeded NMF regression to deconvolute spatial spots
 - [CARD](https://github.com/YingMa0107/CARD) - [R] - Spatially informed cell-type deconvolution
-- [FlashDeconv](https://github.com/cafferychen777/flashdeconv) - [R] - High-performance deconvolution using randomized sketching, achieves linear O(N) scaling for Visium HD and other high-resolution platforms
+- [FlashDeconv](https://github.com/cafferychen777/flashdeconv) - [Python] - Atlas-scale spatial deconvolution via structure-preserving sketching with linear O(N) scalability | [Paper](https://doi.org/10.64898/2025.12.22.696108) | [PyPI](https://pypi.org/project/flashdeconv/)
 
 ### Differential Expression
 
@@ -196,6 +196,7 @@
 - [trendsceek](https://github.com/edsgard/trendsceek) - [R] - Identification of spatial expression trends
 - [nnSVG](https://github.com/lmweber/nnSVG) - [R] - Scalable identification of spatially variable genes using nearest-neighbor Gaussian processes
 - [SLOPER](https://github.com/chitra-lab/SLOPER) - [Python] - Score-based learning of Poisson-modeled expression rates for spatial gene modules and tissue organization patterns
+- [FlashS](https://github.com/cafferychen777/FlashS) - [Python] - Frequency-domain Gaussian kernel testing for SVG detection, where expression sparsity accelerates rather than hinders computation | [PyPI](https://pypi.org/project/flashs/)
 
 ### Integration
 
