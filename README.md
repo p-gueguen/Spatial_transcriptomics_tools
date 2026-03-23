@@ -146,6 +146,7 @@
 - [Bin2Cell](https://github.com/Teichlab/bin2cell) - [Python] - Segmentation for VisiumHD data
 - [ENACT](https://github.com/Sanofi-Public/enact-pipeline) - [Python] - Enhanced accuracy for VisiumHD segmentation
 - [STHD](https://github.com/yi-zhang/STHD) - [Python] - Cell annotation for VisiumHD
+- [Segmentation and annotation pipeline for VisiumHD with Proseg and Novae](https://rafael-silva-oliveira.github.io/blog/2026/segmentation-and-annotation/) - [Python] - Tutorial with a proposed VisiumHD pipeline using Proseg and Novae
 
 ### Cell Annotation
 
