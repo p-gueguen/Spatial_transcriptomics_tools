@@ -172,6 +172,7 @@
 ### Cell Deconvolution
 
 - [RCTD](https://github.com/dmcable/spacexr) - [R] - Robust cell type decomposition
+- [rctd-py](https://github.com/p-gueguen/rctd-py) - [Python] - Python reimplementation of the RCTD algorithm with GPU acceleration 
 - [Cell2location](https://github.com/BayraktarLab/cell2location) - [Python] - Mapping scRNA-seq to spatial data
 - [SPOTlight](https://github.com/MarcElosua/SPOTlight) - [R] - Seeded NMF regression to deconvolute spatial spots
 - [CARD](https://github.com/YingMa0107/CARD) - [R] - Spatially informed cell-type deconvolution
