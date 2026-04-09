@@ -61,6 +61,8 @@
 - [VR-Omics](https://doi.org/10.1186/s13059-025-03630-6) - [GUI] - Free platform-agnostic software with end-to-end automated processing of multi-slice spatial transcriptomics data through biologist-friendly GUI | [Windows](https://doi.org/10.6084/m9.figshare.28259834.v3) | [MacOS](https://doi.org/10.6084/m9.figshare.28340495.v4) | [GitHub](https://github.com/Ramialison-Lab/VR-Omics)
 - [CosMx-Analysis-Scratch-Space](https://nanostring-biostats.github.io/CosMx-Analysis-Scratch-Space/) - [R/Python] - Analysis resources and tools for CosMx SMI spatial transcriptomics | [GitHub](https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space)
 - [SpaceSequest](https://github.com/interactivereport/SpaceSequest) - [R] - Unified pipeline for analysis, visualization, and publication of spatial transcriptomics data from Visium, Visium HD, Xenium, GeoMx, and CosMx | [Tutorial](https://interactivereport.github.io/SpaceSequest/tutorial/docs/index.html)
+- [VST-DAVis](https://github.com/GudaLab/VST-DAVis) - [R Shiny] - Browser-based GUI for end-to-end Visium HD spatial transcriptomics analysis including QC, clustering, cell annotation, pathway enrichment, CellChat, and trajectory analysis
+- [BrainConnect](https://github.com/CPenglab/BrainConnect) - [Python] - Integrative analysis of mouse brain connectivity and whole-brain spatial transcriptomics using LSTM networks to predict connectivity strength from regional gene expression
 
 
 ### Nextflow / Pipelines
@@ -68,6 +70,8 @@
 - [nf-core/spatialxe](https://nf-co.re/spatialxe/dev/) - [Nextflow] - Nextflow pipeline for Xenium spatial transcriptomics analysis
 - [nf-core/sopa](https://nf-co.re/sopa/dev/) - [Nextflow] - Spatial Omics Pipeline Analysis (SOPA) for processing spatial transcriptomics data
 - [Allen Immunology Xenium Pipeline](https://apps.allenimmunology.org/user-documentation/data-ingest/use-the-xenium-pipeline/) - [Web] - HISE platform pipeline for Xenium data processing
+- [SCALPEL](https://github.com/AllenInstitute/Spatial-Transcriptomics-Processing-Pipeline) - [Nextflow] - Allen Institute pipeline for large-scale ST atlas construction with 3D segmentation, doublet detection (SOLO), MapMyCells label transfer, and CCF registration
+- [NNclinSSOAP](https://github.com/NovoNordisk-OpenSource/nnclinssoap) - [Nextflow/R] - GxP-ready clinical pipeline for 10x Xenium spatial transcriptomics and scRNA-seq analysis with Docker/Apptainer containerization
 
 
 ## Analysis Pipeline Steps
@@ -230,6 +234,8 @@
 - [STAMP](https://github.com/JinmiaoChenLab/scTM) - [Python] - Spatial Transcriptomics Analysis with topic Modeling, provides interpretable dimension reduction through deep generative modeling discovering tissue domains and cellular communication patterns
 - [DeepGFT](https://doi.org/10.1186/s13059-025-03631-5) - [Python] - Combines deep learning with graph Fourier transform for spatial domain identification | [GitHub](https://github.com/jxLiu-bio/DeepGFT) | [Zenodo](https://doi.org/10.5281/zenodo.15073243)
 - [SpatialFusion](https://github.com/uhlerlab/spatialfusion) - [Python] - A lightweight multimodal foundation model for pathway-informed spatial niche mapping
+- [SpaHDmap](https://github.com/sldyns/SpaHDmap) - [Python] - High-definition spatial embedding integrating expression NMF with histology image encoder-decoder for spatial domain detection at enhanced resolution
+- [DACN](https://github.com/lanbiolab/DACN) - [Python] - Unsupervised spatial domain detection combining adversarial autoencoder with multi-head attention and GCN, benchmarked across low-, high-, and subcellular-resolution platforms
 
 ### Cell Distances & Neighborhood
 
@@ -363,6 +369,7 @@
 - [spEMO](https://github.com/HelloWorldLTY/spEMO) - [Python] - Framework unifying embeddings from pathology foundation models and LLMs for spatial multi-omic analysis
 - [FOCUS](https://github.com/LHY1007/FOCUS) - [Python] - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
 - [TITAN](https://github.com/mahmoodlab/TITAN) - [Python] - A multimodal whole-slide foundation model for pathology
+- [SEAL](https://github.com/mahmoodlab/SEAL) - [Python] - Spatial Expression-Aligned Learning that fine-tunes pathology foundation models (UNI, CONCH) using spatial transcriptomics data for gene expression-image alignment (Mahmood Lab)
 
 #### Pathology & Histology
 
