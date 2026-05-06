@@ -341,6 +341,7 @@
 - [PathBench](https://birkhoffkiki.github.io/PathBench/) - [Python] - Pathology benchmark
 - [SPATCH Benchmark - 2025](https://www.nature.com/articles/s41467-025-64292-3) - [Paper] - Showing Xenium performs best
 - [Thunder](https://github.com/MICS-Lab/thunder) - [Python] - Pathology benchmark
+- [Histoboard](https://wearewaiv.github.io/histoboard/) - [Web] - Pathology leaderboards
 
 ## Datasets & Foundation Models
 
