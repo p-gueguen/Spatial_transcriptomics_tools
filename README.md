@@ -370,6 +370,7 @@
 - [FOCUS](https://github.com/LHY1007/FOCUS) - [Python] - Foundational generative model for cross-platform unified ST enhancement conditioned on H&E images, scRNA-seq references, and spatial co-expression priors (trained on 1.7M H&E-ST pairs, 10 platforms)
 - [TITAN](https://github.com/mahmoodlab/TITAN) - [Python] - A multimodal whole-slide foundation model for pathology
 - [SEAL](https://github.com/mahmoodlab/SEAL) - [Python] - Spatial Expression-Aligned Learning that fine-tunes pathology foundation models (UNI, CONCH) using spatial transcriptomics data for gene expression-image alignment (Mahmood Lab)
+- [Phoenix](https://github.com/peng-lab/phoenix) - [Python] - Pan-cancer virtual spatial transcriptomics from routine histology via latent flow matching generative model predicting single-cell gene expression directly from H&E images, generalizing across cohorts, donors, organs, and tissues
 
 #### Pathology & Histology
 
