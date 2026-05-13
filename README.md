@@ -7,6 +7,7 @@
 
 - [General Tools](#general-tools)
   - [Nextflow Pipelines](#nextflow--pipelines)
+- [Probe & Panel Design](#probe--panel-design)
 - [Analysis Pipeline Steps](#analysis-pipeline-steps)
   - [ROI Selection](#roi-selection)
   - [QC](#qc)
@@ -73,6 +74,28 @@
 - [SCALPEL](https://github.com/AllenInstitute/Spatial-Transcriptomics-Processing-Pipeline) - [Nextflow] - Allen Institute pipeline for large-scale ST atlas construction with 3D segmentation, doublet detection (SOLO), MapMyCells label transfer, and CCF registration
 - [NNclinSSOAP](https://github.com/NovoNordisk-OpenSource/nnclinssoap) - [Nextflow/R] - GxP-ready clinical pipeline for 10x Xenium spatial transcriptomics and scRNA-seq analysis with Docker/Apptainer containerization
 
+
+## Probe & Panel Design
+
+### Targeted Capture-Array (Visium / Visium HD / FFPE)
+
+- [Spapros](https://github.com/theislab/spapros) - [Python] - Probe set selection for targeted spatial transcriptomics from an scRNA-seq reference
+- [gene2probe](https://github.com/Teichlab/gene2probe) - [Python] - Pipeline for designing custom probes against human genes, tuned to VisiumHD / Visium FFPE constraints
+- [ProbeST](https://github.com/giacomellolab/ProbeST) - [Snakemake] - Custom Visium-compatible probe design pipeline for any species (including prokaryotes and host–pathogen)
+
+### Imaging-based (MERFISH / seqFISH / STARmap / FISH)
+
+- [FISHprobe](https://github.com/stevexniu/fishprobe) - [Python/R] - DNA/RNA FISH probe design pipeline usable across MERFISH, seqFISH+, STARmap, MiP-seq, and DNA-FISH
+- [MERFISH_probe_design](https://github.com/xingjiepan/MERFISH_probe_design) - [Python] - Python3 pipeline for MERFISH encoding probe design
+- [MERFISH_analysis](https://github.com/ZhuangLab/MERFISH_analysis) - [Matlab] - Zhuang lab MERFISH analysis suite including probe design pipeline V2
+- [ProbeDesign](https://github.com/bil022/ProbeDesign) - [C++] - Memory-efficient MERFISH probe designer using 17-mer counting tables for genome-scale off-target evaluation
+- [PaintSHOP](https://github.com/beliveau-lab/PaintSHOP) - [R/Shiny] - Interactive oligo-FISH probe design web app
+- [OligoMiner](https://github.com/beliveau-lab/OligoMiner) - [Python] - Genome-scale design tool for oligo hybridization probes
+- [Merck ProbeDesign](https://github.com/Merck/ProbeDesign) - [Docker] - Dockerized pipeline for 16S rRNA seqFISH probe design adapted to bacterial communities
+
+### Experimental Design
+
+- [spatial-experimental-design](https://github.com/andrewcharlesjones/spatial-experimental-design) - [Python] - Code for optimizing spatial experimental design (slide count, sampling locations) for targeted ST studies
 
 ## Analysis Pipeline Steps
 
