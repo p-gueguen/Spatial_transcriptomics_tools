@@ -77,25 +77,18 @@
 
 ## Probe & Panel Design
 
-### Targeted Capture-Array (Visium / Visium HD / FFPE)
+### Panel Selection
 
-- [Spapros](https://github.com/theislab/spapros) - [Python] - Probe set selection for targeted spatial transcriptomics from an scRNA-seq reference
+- [Spapros](https://github.com/theislab/spapros) - [Python] - Gene panel selection for targeted spatial transcriptomics (Visium HD, Xenium, MERFISH, etc.) from an scRNA-seq reference, optimizing for cell-type ID and within-cell-type variation
+
+### Probe Sequence Design (Visium / Visium HD / FFPE)
+
 - [gene2probe](https://github.com/Teichlab/gene2probe) - [Python] - Pipeline for designing custom probes against human genes, tuned to VisiumHD / Visium FFPE constraints
 - [ProbeST](https://github.com/giacomellolab/ProbeST) - [Snakemake] - Custom Visium-compatible probe design pipeline for any species (including prokaryotes and host–pathogen)
 
-### Imaging-based (MERFISH / seqFISH / STARmap / FISH)
+### Off-target QC
 
-- [FISHprobe](https://github.com/stevexniu/fishprobe) - [Python/R] - DNA/RNA FISH probe design pipeline usable across MERFISH, seqFISH+, STARmap, MiP-seq, and DNA-FISH
-- [MERFISH_probe_design](https://github.com/xingjiepan/MERFISH_probe_design) - [Python] - Python3 pipeline for MERFISH encoding probe design
-- [MERFISH_analysis](https://github.com/ZhuangLab/MERFISH_analysis) - [Matlab] - Zhuang lab MERFISH analysis suite including probe design pipeline V2
-- [ProbeDesign](https://github.com/bil022/ProbeDesign) - [C++] - Memory-efficient MERFISH probe designer using 17-mer counting tables for genome-scale off-target evaluation
-- [PaintSHOP](https://github.com/beliveau-lab/PaintSHOP) - [R/Shiny] - Interactive oligo-FISH probe design web app
-- [OligoMiner](https://github.com/beliveau-lab/OligoMiner) - [Python] - Genome-scale design tool for oligo hybridization probes
-- [Merck ProbeDesign](https://github.com/Merck/ProbeDesign) - [Docker] - Dockerized pipeline for 16S rRNA seqFISH probe design adapted to bacterial communities
-
-### Experimental Design
-
-- [spatial-experimental-design](https://github.com/andrewcharlesjones/spatial-experimental-design) - [Python] - Code for optimizing spatial experimental design (slide count, sampling locations) for targeted ST studies
+- [Off-Target Probe Tracker](https://github.com/JEFworks-Lab/off-target-probe-tracker) - [Python] - Pipeline to predict off-target binding from probe sequences, useful for auditing Xenium and other targeted ST panels
 
 ## Analysis Pipeline Steps
 
