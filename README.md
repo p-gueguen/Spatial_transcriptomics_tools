@@ -49,6 +49,7 @@
 - [sopa](https://github.com/gustaveroussy/sopa) - [Python] - Spatial omics processing and analysis
 - [SpatialAgent](https://github.com/Genentech/SpatialAgent) - [Python] - An autonomous AI agent for spatial biology
 - [ChatSpatial](https://github.com/cafferychen777/ChatSpatial) - [Python] - MCP server enabling spatial transcriptomics analysis via natural language, integrating 60+ methods including SpaGCN, Cell2location, LIANA+, CellRank for Visium, Xenium, MERFISH | [Paper](https://doi.org/10.64898/2026.02.26.708361) | [Docs](https://cafferyang.com/ChatSpatial/) | [PyPI](https://pypi.org/project/chatspatial/)
+- [STAgent](https://github.com/LiuLab-Bioelectronics-Harvard/STAgent) - [Python] - Autonomous multimodal LLM agent (Claude/GPT/Gemini) for end-to-end ST analysis of .h5ad data, with code generation, visual reasoning over tissue images, literature retrieval, and report synthesis via a Streamlit interface | [Paper](https://doi.org/10.1101/2025.04.01.646731)
 - [LazySlide](https://github.com/rendeirolab/LazySlide) - [Python] - Framework for whole slide image (WSI) analysis
 - [pasta](https://robinsonlabuzh.github.io/pasta/00-home.html) - [R] - Point pattern and lattice data analysis from Robinson lab
 - [rakaia](https://github.com/camlab-bioml/rakaia) - [JavaScript] - Scalable interactive visualization and analysis of spatial omics including spatial transcriptomics, in the browser ([Website](https://rakaia.io/))
@@ -80,6 +81,8 @@
 ### Panel Selection
 
 - [Spapros](https://github.com/theislab/spapros) - [Python] - Gene panel selection for targeted spatial transcriptomics (Visium HD, Xenium, MERFISH, etc.) from an scRNA-seq reference, optimizing for cell-type ID and within-cell-type variation
+- [scGPD](https://github.com/TinaGuo/scGPD) - [Python] - Deep-learning gene panel design for targeted ST; a two-stage, gene-gene correlation-aware binary gating mechanism selects compact, nonredundant marker panels from an scRNA-seq reference | [Paper](https://doi.org/10.1093/bib/bbag160)
+- [ReconST](https://github.com/haoranlustat/ReconST) - [Python] - Gated-autoencoder panel design that selects the gene subset best reconstructing the whole transcriptome (rather than relying on known markers) for MERFISH/seqFISH/Xenium/MERSCOPE | [Paper](https://www.biorxiv.org/content/10.1101/2025.10.08.681071v1)
 
 ### Probe Sequence Design (Visium / Visium HD / FFPE)
 
@@ -102,11 +105,13 @@
 - [GrandQC](https://github.com/cpath-ukk/grandqc) - [Python] - Comprehensive solution for quality control in digital pathology
 - [SpotSweeper](https://github.com/MicTott/SpotSweeper) - [R] - Spatially aware quality control for spatial transcriptomics
 - [MerQuaCo](https://github.com/AllenInstitute/merquaco) - [Python] - A computational tool for quality control in image-based spatial transcriptomics
+- [SpatialQM](https://github.com/Center-for-Spatial-OMICs/SpatialQM) - [R] - Standardized QC-metric suite for imaging-based ST (Xenium/CosMx/MERSCOPE): transcripts/cell, global FDR, signal-to-noise, Moran's I and more; the software arm of the Spatial Touchstone reproducibility framework | [Paper](https://doi.org/10.1038/s41587-025-02811-9)
 
 ### Normalization
 
 - [Cell volume normalization](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03303-w#Fig7) - [R] - Recommended for imaging-based techniques, especially with small probe lists
 - [SpaNorm](https://github.com/bhuvad/SpaNorm) - [R] - First spatially-aware normalization method that concurrently models library size effects and underlying biology | [Bioconductor](https://doi.org/10.18129/B9.bioc.SpaNorm)
+- [TranspaceR](https://github.com/BOSTLAB/TranspaceR) - [R] - Statistical framework for imaging-based (Xenium/CosMx) and Visium HD ST: novel QC, scalable spatially-variable-gene selection, and data-driven optimal normalization plus low-dimensional embedding | [Paper](https://doi.org/10.1186/s44330-026-00055-w)
 
 ### Gene Imputation & Denoising
 
@@ -130,6 +135,7 @@
 - [DenoIST](https://github.com/aaronkwc/DenoIST) - [R] - Denoising Image-based Spatial Transcriptomics data
 - [MisTIC](https://github.com/yunguan-wang/MisTic-Wanglab) - [Python] - A probabilistic model for correcting mis-assigned transcripts due to cell segmentation errors
 - [TRACER](https://github.com/imlong4real/TRACER) - [Python] - Tissue Reconstruction via Associative Clique Extraction and Relation-mapping
+- [RESCUE](https://github.com/brunoyjlee/RESCUE) - [R] - Negative-selection method that partitions ST expression into reference-explained "canonical" and sparse "idiosyncratic" components, recovering biological signal (fragile cell types, neurites, extracellular transcripts) lost by reference-based deconvolution/segmentation | [Paper](https://doi.org/10.1038/s41467-026-71720-5)
 
 ### Cell Segmentation
 
@@ -167,6 +173,7 @@
 - [ENACT](https://github.com/Sanofi-Public/enact-pipeline) - [Python] - Enhanced accuracy for VisiumHD segmentation
 - [STHD](https://github.com/yi-zhang/STHD) - [Python] - Cell annotation for VisiumHD
 - [Segmentation and annotation pipeline for VisiumHD with Proseg and Novae](https://rafael-silva-oliveira.github.io/blog/2026/segmentation-and-annotation/) - [Python] - Tutorial with a proposed VisiumHD pipeline using Proseg and Novae
+- [SMURF](https://github.com/The-Mitra-Lab/SMURF) - [Python] - Soft-segmentation and manifold-unrolling framework that assigns 2 µm Visium HD bins to StarDist/Cellpose nuclei (fractionally distributing transcripts to optimize per-cell cluster similarity) and "unrolls" cells onto Cartesian coordinates for single-cell reconstruction | [Paper](https://doi.org/10.1101/2025.05.28.656357) | [PyPI](https://pypi.org/project/pysmurf/)
 
 ### Cell Annotation
 
@@ -207,6 +214,7 @@
 - [spatialGE](https://github.com/FridleyLab/spatialGE) - [R] - Spatial gene expression analysis
 - [Vespucci](https://github.com/neurorestore/Vespucci) - [R] - Prioritize spatial regions involved in the response to an experimental perturbation in spatial transcriptomics
 - [CSDE](https://github.com/YosefLab/CSDE) - [Python] - Corrected Spatial Differential Expression using Prediction-Powered Inference to account for preprocessing uncertainties (segmentation, quantification, cell typing)
+- [SpNeigh](https://github.com/jinming-cheng/SpNeigh) - [R] - Boundary- and gradient-aware spatial differential expression for high-resolution ST (Xenium, MERFISH, Visium HD): neighborhood extraction, distance-weighted/spline DE, and spatial enrichment scoring | [Paper](https://doi.org/10.1093/nargab/lqag039)
 
 ### Spatially Variable Genes
 
@@ -358,6 +366,7 @@
 - [SPATCH Benchmark - 2025](https://www.nature.com/articles/s41467-025-64292-3) - [Paper] - Showing Xenium performs best
 - [Thunder](https://github.com/MICS-Lab/thunder) - [Python] - Pathology benchmark
 - [Histoboard](https://wearewaiv.github.io/histoboard/) - [Web] - Pathology leaderboards
+- [Xenium_benchmarking](https://github.com/Moldia/Xenium_benchmarking) - [Python] - Independent benchmark and best-practice analysis workflows for Xenium across 25 datasets: QC, segmentation (Baysor+Cellpose), preprocessing, SVG selection, gene imputation, and domain identification (Nature Methods 2025) | [Paper](https://doi.org/10.1038/s41592-025-02617-2)
 
 ## Datasets & Foundation Models
 
@@ -367,6 +376,7 @@
 - [STOmicsDB](https://db.cngb.org/stomics/) - [Web] - Spatial transcriptomics database
 - [STHELAR](https://github.com/MICS-Lab/STHELAR) - [Python] - Multi-tissue dataset linking spatial transcriptomics (Xenium) and histology for cell-type annotation
 - [HistAI Pathology Datahub](https://github.com/histai/datahub) - [Python] - Skills repo / HistAI Whole Slide Image Data Hub
+- [DeepSpaceDB 2.0](https://deepspacedb.com/) - [Web] - Interactive web database for large-scale Xenium exploration (628 public datasets, ~1,045 samples / 129M cells) plus Visium, stored in gene- and coordinate-chunked Zarr for sub-second browser-based expression and ROI queries | [Paper](https://doi.org/10.64898/2026.01.15.699623)
 
 ### Foundation Models
 
