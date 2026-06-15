@@ -291,6 +291,7 @@
 - [DeepTalk](https://github.com/JiangBioLab/DeepTalk) - [Python] - Single-cell resolution cell-cell communication using deep learning
 - [CellNEST](https://github.com/schwartzlab-methods/CellNEST) - [Python] - Cell–cell relay networks using attention mechanisms on spatial transcriptomics
 - [FlowSig](https://github.com/axelalmet/flowsig) - [Python] - Inferring pattern-driving intercellular flows from single-cell and spatial transcriptomics
+- [CytoSignal](https://github.com/welch-lab/cytosignal) - [R] - Detects locations and dynamics of ligand-receptor signaling at single-cell resolution from spatial transcriptomic data (VeloCytoSignal captures temporal signaling velocity) | [Paper](https://doi.org/10.1038/s41588-026-02624-9)
 
 ### Metacells & Scalability
 
