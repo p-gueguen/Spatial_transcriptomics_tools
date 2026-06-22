@@ -106,6 +106,7 @@
 - [SpotSweeper](https://github.com/MicTott/SpotSweeper) - [R] - Spatially aware quality control for spatial transcriptomics
 - [MerQuaCo](https://github.com/AllenInstitute/merquaco) - [Python] - A computational tool for quality control in image-based spatial transcriptomics
 - [SpatialQM](https://github.com/Center-for-Spatial-OMICs/SpatialQM) - [R] - Standardized QC-metric suite for imaging-based ST (Xenium/CosMx/MERSCOPE): transcripts/cell, global FDR, signal-to-noise, Moran's I and more; the software arm of the Spatial Touchstone reproducibility framework | [Paper](https://doi.org/10.1038/s41587-025-02811-9)
+- [SpatialArtifacts](https://bioconductor.org/packages/SpatialArtifacts) - [R] - Identification and classification of spatial artifacts (edge and interior) in Visium and Visium HD data via a two-step outlier-detection plus image-processing workflow | [GitHub](https://github.com/CambridgeCat13/SpatialArtifacts)
 
 ### Normalization
 
@@ -206,6 +207,7 @@
 - [SPOTlight](https://github.com/MarcElosua/SPOTlight) - [R] - Seeded NMF regression to deconvolute spatial spots
 - [CARD](https://github.com/YingMa0107/CARD) - [R] - Spatially informed cell-type deconvolution
 - [FlashDeconv](https://github.com/cafferychen777/flashdeconv) - [Python] - Atlas-scale spatial deconvolution via structure-preserving sketching with linear O(N) scalability | [Paper](https://doi.org/10.64898/2025.12.22.696108) | [PyPI](https://pypi.org/project/flashdeconv/)
+- [UCASpatial](https://github.com/BIGHanLab/UCASpatial) - [R] - Ultra-precision spatial deconvolution using entropy-based weighting of cell-identity genes to robustly map low-abundance and transcriptionally heterogeneous cell subpopulations | [Paper](https://doi.org/10.1038/s41467-026-70645-3) | [Docs](https://bighanlab.github.io/UCASpatial/)
 
 ### Differential Expression
 
