@@ -124,6 +124,7 @@
 - [Sprod](https://github.com/yunguan-wang/SPROD) - [Python] - Spatial denoising method
 - [TISSUE](https://github.com/sunericd/TISSUE) - [Python] - Transcript imputation with spatial single-cell uncertainty estimation
 - [SpaIM](https://github.com/QSong-github/SpaIM) - [Python] - Single-cell Spatial Transcriptomics Imputation via Style Transfer
+- [Cellpin](https://github.com/Saur-Lab/cellpin) - [Python] - Lightweight probabilistic model for reference-based imputation and denoising of spatial transcriptomes from an scRNA-seq reference, enabling transcriptome-wide imputation and atlas-to-spatial label transfer for targeted-panel and full-transcriptome data | [Paper](https://doi.org/10.64898/2026.06.02.729566)
 
 ### Bias Correction
 
