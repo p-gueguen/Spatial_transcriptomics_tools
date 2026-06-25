@@ -138,6 +138,7 @@
 - [MisTIC](https://github.com/yunguan-wang/MisTic-Wanglab) - [Python] - A probabilistic model for correcting mis-assigned transcripts due to cell segmentation errors
 - [TRACER](https://github.com/imlong4real/TRACER) - [Python] - Tissue Reconstruction via Associative Clique Extraction and Relation-mapping
 - [RESCUE](https://github.com/brunoyjlee/RESCUE) - [R] - Negative-selection method that partitions ST expression into reference-explained "canonical" and sparse "idiosyncratic" components, recovering biological signal (fragile cell types, neurites, extracellular transcripts) lost by reference-based deconvolution/segmentation | [Paper](https://doi.org/10.1038/s41467-026-71720-5)
+- [XeniumClean](https://github.com/rachael-z/XeniumClean) - [R] - Spatial neighbour-aware transcript cleanup for imaging-based ST (Xenium, MERSCOPE, CosMx, Atera): removes biologically implausible transcripts by combining a single-cell RNA-seq reference with spatial neighbourhood information to erase genes that cannot plausibly originate from a cell's own type
 
 ### Cell Segmentation
 
