@@ -263,6 +263,7 @@
 - [DeepGFT](https://doi.org/10.1186/s13059-025-03631-5) - [Python] - Combines deep learning with graph Fourier transform for spatial domain identification | [GitHub](https://github.com/jxLiu-bio/DeepGFT) | [Zenodo](https://doi.org/10.5281/zenodo.15073243)
 - [SpatialFusion](https://github.com/uhlerlab/spatialfusion) - [Python] - A lightweight multimodal foundation model for pathway-informed spatial niche mapping
 - [SpaHDmap](https://github.com/sldyns/SpaHDmap) - [Python] - High-definition spatial embedding integrating expression NMF with histology image encoder-decoder for spatial domain detection at enhanced resolution
+- [SpatialEcoTyper](https://github.com/digitalcytometry/spatialecotyper) - [R] - Discovers and recovers spatially distinct multicellular communities from ST, scRNA-seq, and bulk data | [Paper](https://doi.org/10.1038/s41586-026-10452-4) | [Docs](https://digitalcytometry.github.io/spatialecotyper)
 
 ### Cell Distances & Neighborhood
 
