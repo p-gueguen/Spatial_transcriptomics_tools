@@ -244,6 +244,7 @@
 - [GSI](https://doi.org/10.1093/bioinformatics/btaf350) - [Python] - Gene Spatial Integration using deep learning with representation learning to extract spatial distribution of genes | [GitHub](https://github.com/Riandanis/Spatial_Integration_GSI) | [Zenodo](https://doi.org/10.5281/zenodo.15165223)
 - [SPACE-seq](https://doi.org/10.1073/pnas.2424070122) - [Paper] - Unified molecular approach for spatial multiomics enabling simultaneous analysis of chromatin accessibility, mitochondrial DNA mutations, and gene expression on standard 10× Genomics Visium CytAssist platform
 - [LLOKI](https://github.com/elliehaber07/LLOKI) - [Python] - Cross-platform spatial transcriptomics integration using optimal transport and scGPT foundation models for unified features across different gene panels (RECOMB 2025)
+- [LYNX](https://github.com/azizilab/Lynx) - [Python] - Deep generative model integrating paired spatial multi-modal data (RNA, protein, metabolomics, H&E) from adjacent sections to infer microenvironmental gradients and cell-state transitions | [Docs](https://lynx-spatial.readthedocs.io)
 
 ### Cell Niches & Tissue Domains
 
