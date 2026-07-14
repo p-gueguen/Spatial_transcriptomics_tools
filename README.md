@@ -359,7 +359,7 @@
 - [SpotWhisperer](https://github.com/epigen/cellxgene) - [Python] - Molecularly informed analysis of histopathology images using natural language
 - [STPath](https://github.com/Graph-and-Geometric-Learning/STPath) - [Python] - A Generative Foundation Model for Integrating Spatial Transcriptomics and Whole Slide Images
 - [STFlow](https://github.com/Graph-and-Geometric-Learning/STFlow) - [Python] - Scalable generation of spatial transcriptomics from histology images via whole-slide flow matching
-- [AESTETIK](https://github.com/ratschlab/aestetik) - [Python] - AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge
+- [AESTETIK](https://github.com/ratschlab/aestetik) - [Python] - AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge | [Paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433)
 
 ## Benchmarks
 
