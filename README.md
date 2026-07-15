@@ -388,6 +388,8 @@
 - [STHELAR](https://github.com/MICS-Lab/STHELAR) - [Python] - Multi-tissue dataset linking spatial transcriptomics (Xenium) and histology for cell-type annotation
 - [HistAI Pathology Datahub](https://github.com/histai/datahub) - [Python] - Skills repo / HistAI Whole Slide Image Data Hub
 - [DeepSpaceDB 2.0](https://deepspacedb.com/) - [Web] - Interactive web database for large-scale Xenium exploration (628 public datasets, ~1,045 samples / 129M cells) plus Visium, stored in gene- and coordinate-chunked Zarr for sub-second browser-based expression and ROI queries | [Paper](https://doi.org/10.64898/2026.01.15.699623)
+- [TCGA virtual spatial transcriptomics atlas](https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas) - [Python] - DeepSpot-M predicted transcriptome-wide ST for TCGA H&E (FF + FFPE); ~28.7k slides / 32 cancer types / ~296M spots (gated) | [Paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)
+- [HEST Xenium virtual spatial transcriptomics](https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics) - [Python] - DeepSpot-M predicted transcriptome-wide ST for 59 HEST-1k 10x Xenium H&E slides (~13M spots; gated) | [Paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)
 
 ### Foundation Models
 
