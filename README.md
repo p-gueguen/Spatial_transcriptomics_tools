@@ -165,6 +165,7 @@
 - [STP](https://github.com/leihouyeung/STP) - [Python] - Single-cell Partition for subcellular spatially-resolved transcriptomics integrating data with nuclei-stained images
 - [Deep learning-based segmentation](https://doi.org/10.1126/sciadv.adw4871) - [Python] - Extensively trained nuclear and membrane segmentation models for precise transcript assignment in CosMx SMI data
 - [CellSAM](https://github.com/vanvalenlab/cellSAM) - [Python] - Foundation model for cell segmentation achieving state-of-the-art performance across cellular targets (bacteria, tissue, yeast, cell culture) and imaging modalities (brightfield, fluorescence, phase, multiplexed) | [Paper](https://www.nature.com/articles/s41592-025-02879-w) | [Web App](https://cellsam.deepcell.org)
+- [DISSECT](https://github.com/zenglab-pku/DISSECT) - [Python] - Diffusion-based cell segmentation combining cytological image segmentation with transcriptome-guided boundary refinement for Xenium, CosMx, and Stereo-seq | [PyPI](https://pypi.org/project/dissect-st/)
 
 **Segmentation-free methods:**
 - [SSAM](https://github.com/HiDiHlabs/ssam) - [Python] - Subcellular segmentation-free analysis by multidimensional mRNA density
@@ -399,6 +400,7 @@
 - [scGPT-spatial](https://github.com/bowang-lab/scGPT-spatial) - [Python] - Spatial-omic foundation model pretrained on 30M spatial profiles (SpatialHuman30M) across 821 slides
 - [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) - [Python] - Transformer-based foundation model pretrained on SpatialCorpus-110M containing over 110 million cells for spatial composition and label prediction | [GitHub](https://github.com/theislab/nicheformer)
 - [stFormer](https://github.com/csh3/stFormer) - [Python] - Foundation model generating contextual gene representations within spatial niches with ligand–receptor aware attention
+- [TERRA](https://github.com/Lotfollahi-lab/terra) - [Python] - Self-supervised foundation model producing cell- and neighborhood-level embeddings via a Graph Transformer + JEPA on masked gene tokens, reusable across downstream tasks without retraining | [Docs](https://terra-st.readthedocs.io)
 
 #### Visual-Omics & Multimodal (H&E + ST)
 
