@@ -208,11 +208,10 @@
 - [moscot](https://github.com/theislab/moscot) - [Python] - Optimal transport-based cell mapping
 - [CELLama](https://github.com/portrai-io/CELLama) - [Python] - Cell annotation model
 - [TACCO](https://github.com/simonwm/tacco) - [Python] - Transfer of annotations between single-cell datasets
-- [TANGRAM](https://github.com/broadinstitute/Tangram) - [Python] - Mapping single-cell to spatial data
+- [Tangram](https://github.com/broadinstitute/Tangram) - [Python] - Label transfer by mapping an scRNA-seq reference onto spatial coordinates (also listed under Gene Imputation for its expression-prediction use)
 - [MMoCHi](https://github.com/donnafarberlab/MMoCHi) - [Python] - Cell annotation method
 - [CytoSPACE](https://github.com/digitalcytometry/cytospace) - [Python] - High-resolution alignment of single-cell and spatial transcriptomes
 - [ABCT](https://github.com/ercsb-sp/ABCT) - [R] - Anchor-based Cell Typer
-- [STHD](https://github.com/yi-zhang/STHD) - [Python] - Cell annotation for VisiumHD
 - [STELLAR](https://github.com/snap-stanford/stellar) - [Python] - Annotation of spatially resolved single-cell data with STELLAR
 - [Vesalius](https://github.com/WonLab-CS/Vesalius) - [R] - Multi-scale and multi-context interpretable mapping of cell states across heterogeneous spatial samples
 - [STALocator](https://github.com/zhanglabtools/STALocator) - [Python] - ST-Aided Locator using deep learning to localize cells from single-cell RNA-seq data onto tissue slices
@@ -325,8 +324,8 @@
 - [Spatia](https://github.com/yunguan-wang/Spacia) - [Python] - Spatial cell-cell interaction analysis
 - [CellAgentChat](https://github.com/mcgilldinglab/CellAgentChat) - [Python] - Agent-based cell communication modeling
 - [SpaTalk](https://github.com/ZJUFanLab/SpaTalk) - [R] - Knowledge-graph-based cell-cell communication inference
-- [SpaOTsc](https://github.com/zcang/SpaOTsc) - [Python] - Inferring spatial and signaling relationships between cells
-- [MISTy](https://github.com/saezlab/mistyR) - [R] - Explainable multi-view framework for dissecting intercellular signaling
+- [SpaOTsc](https://github.com/zcang/SpaOTsc) - [Python] - Infers signalling relationships between cells via optimal transport (also listed under Gene Imputation for its spatial-mapping use)
+- [MISTy](https://github.com/saezlab/mistyR) - [R] - Multi-view modelling of ligand-receptor and pathway views to attribute expression to intercellular signalling (also listed under Cell Distances for its neighbourhood views)
 - [DeepLinc](https://github.com/xryanglab/DeepLinc) - [Python] - De novo reconstruction of cell interaction landscapes
 - [CellChat](https://github.com/jinworks/CellChat?tab=readme-ov-file) - [R] - Inferrence of cell-cell communication from multiple spatially resolved transcriptomics datasets
 - [COMMOT](https://github.com/zcang/COMMOT) - [Python] - Screening cell-cell communication in spatial transcriptomics via collective optimal transport
@@ -450,7 +449,6 @@
 - [HISSTA](https://github.com/ercsb-sp/HISSTA/tree/v1.0) - [Python/R] - Histopathology spatial transcriptomics dataset
 - [STOmicsDB](https://db.cngb.org/stomics/) - [Web] - Spatial transcriptomics database
 - [STHELAR](https://github.com/MICS-Lab/STHELAR) - [Python] - Multi-tissue dataset linking spatial transcriptomics (Xenium) and histology for cell-type annotation
-- [HistAI Pathology Datahub](https://github.com/histai/datahub) - [Python] - Skills repo / HistAI Whole Slide Image Data Hub
 - [DeepSpaceDB 2.0](https://deepspacedb.com/) - [Web] - Interactive web database for large-scale Xenium exploration (628 public datasets, ~1,045 samples / 129M cells) plus Visium, stored in gene- and coordinate-chunked Zarr for sub-second browser-based expression and ROI queries | [Paper](https://doi.org/10.64898/2026.01.15.699623)
 - [TCGA virtual spatial transcriptomics atlas](https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas) - [Python] - DeepSpot-M predicted transcriptome-wide ST for TCGA H&E (FF + FFPE); ~28.7k slides / 32 cancer types / ~296M spots (gated) | [Paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)
 - [HEST Xenium virtual spatial transcriptomics](https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics) - [Python] - DeepSpot-M predicted transcriptome-wide ST for 59 HEST-1k 10x Xenium H&E slides (~13.3M cells; gated) | [Paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)
