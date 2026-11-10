@@ -275,6 +275,8 @@
 - [LYNX](https://github.com/azizilab/Lynx) - [Python] - Deep generative model integrating paired spatial multi-modal data (RNA, protein, metabolomics, H&E) from adjacent sections to infer microenvironmental gradients and cell-state transitions | [Docs](https://lynx-spatial.readthedocs.io)
 - [INSPIRE](https://github.com/jiazhao97/INSPIRE) - [Python] - Adversarial GNN plus NMF integration of many ST datasets, yielding interpretable spatial factors and gene programs; scales to Stereo-seq | [Paper](https://doi.org/10.1038/s41588-026-02579-x)
 - [SpaMosaic](https://github.com/JinmiaoChenLab/SpaMosaic) - [Python] - Mosaic integration of spatial multi-omics with only partially overlapping modalities, with missing-modality imputation | [Paper](https://doi.org/10.1038/s41588-026-02573-3)
+- [DIRAC](https://github.com/boxiangliulab/DIRAC) - [Python] - Graph neural network with adversarial calibration for vertical and horizontal integration of spatial multi-omics into a domain-invariant embedding, with label transfer from spatial or single-cell references | [Docs](https://dirac-tutorial.readthedocs.io/en/latest/)
+- [CORAL](https://github.com/zou-group/CORAL) - [Python] - Graph-based deep generative model integrating unmatched spatial omics of different resolutions (transcriptomics, proteomics, metabolomics, ATAC); joint single-cell embeddings, deconvolution of the lower-resolution modality, cell-cell interactions and niches (Zou Lab) | [Docs](https://coral-omics.readthedocs.io/en/latest/)
 
 ### Cell Niches & Tissue Domains
 
