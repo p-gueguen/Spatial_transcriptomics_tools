@@ -412,6 +412,7 @@
 - [STPath](https://github.com/Graph-and-Geometric-Learning/STPath) - [Python] - A Generative Foundation Model for Integrating Spatial Transcriptomics and Whole Slide Images
 - [STFlow](https://github.com/Graph-and-Geometric-Learning/STFlow) - [Python] - Scalable generation of spatial transcriptomics from histology images via whole-slide flow matching
 - [AESTETIK](https://github.com/ratschlab/aestetik) - [Python] - Representation learning for multi-modal spatially resolved transcriptomics data (Bioinformatics) | [Paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433)
+- [Spatial-Continuum-Oncology](https://github.com/Lukecele/spatial-continuum-oncology) - [Python] - Biophysical reaction-diffusion transport theory of pharmacological sanctuaries and in silico resistance prediction in NSCLC (RUO) | [Paper](https://doi.org/10.21203/rs.3.rs-11530312/v1)
 
 ## Benchmarks
 
