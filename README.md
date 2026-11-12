@@ -189,6 +189,7 @@
 - [DISSECT](https://github.com/zenglab-pku/DISSECT) - [Python] - Diffusion-based cell segmentation combining cytological image segmentation with transcriptome-guided boundary refinement for Xenium, CosMx, and Stereo-seq | [PyPI](https://pypi.org/project/dissect-st/)
 - [Cellist](https://github.com/wanglabtongji/Cellist) - [Python] - Multi-modal segmentation combining image and expression signal, benchmarked across Stereo-seq, Seq-Scope, seqFISH+, STARmap and Xenium | [Paper](https://doi.org/10.1038/s41588-026-02610-1)
 - [RNA2seg](https://github.com/fish-quant/rna2seg) - [Python] - Generalist segmentation model trained on 4M MERFISH/CosMx cells, fusing RNA point clouds with membrane and nuclear stains; zero-shot capable | [Paper](https://doi.org/10.1186/s13059-025-03908-9)
+- [CellART](https://github.com/YangLabHKUST/CellART) - [Python] - Joint cell segmentation and cell type annotation for high-resolution ST (Xenium, Visium HD), combining transcripts, staining images and scRNA-seq references | [Docs](https://cellart.readthedocs.io/en/latest/) | [Paper](https://doi.org/10.1038/s43588-026-01054-1)
 
 **Segmentation-free methods:**
 - [SSAM](https://github.com/HiDiHlabs/ssam) - [Python] - Subcellular segmentation-free analysis by multidimensional mRNA density (repo archived 2024-10, reference implementation)
